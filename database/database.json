@@ -1,648 +1,306 @@
 {
-  "citas": [
+  "apartamentos": [
     {
-      "cita": {
-        "paciente": "Diana Rojas",
-        "fecha": "2023-11-25",
-        "hora": "14:39",
-        "consultorio": "402",
-        "doctor": "Jenifer Sarria",
-        "tratamiento": "Odontopediatría"
-      },
-      "id": 13
-    },
-    {
-      "cita": {
-        "paciente": "Juan Lleras",
-        "fecha": "2023-11-25",
-        "hora": "15:02",
-        "consultorio": "302",
-        "doctor": "Johana Dorado",
-        "tratamiento": "Extracción"
-      },
-      "id": 19
-    },
-    {
-      "cita": {
-        "paciente": "Jose Roman",
-        "fecha": "2023-11-25",
-        "hora": "15:26",
-        "consultorio": "302",
-        "doctor": "Antonio Restrepo",
-        "tratamiento": "Cirugía"
-      },
-      "id": 24
-    },
-    {
-      "cita": {
-        "paciente": "Pepe Sanz",
-        "fecha": "2023-11-25",
-        "hora": "15:26",
-        "consultorio": "201",
-        "doctor": "Lorenzo Lopez",
-        "tratamiento": "Higiene"
-      },
-      "id": 26
-    },
-    {
-      "cita": {
-        "paciente": "Natalia Londoño",
-        "fecha": "2023-11-25",
-        "hora": "15:42",
-        "consultorio": "301",
-        "doctor": "Andrea Reyes",
-        "tratamiento": "Blanqueamiento"
-      },
-      "id": 31
-    },
-    {
-      "cita": {
-        "paciente": "Luisa Vasquez",
-        "fecha": "2023-11-25",
-        "hora": "15:42",
-        "consultorio": "402",
-        "doctor": "Johana Dorado",
-        "tratamiento": "Odontopediatría"
-      },
-      "id": 35
-    },
-    {
-      "cita": {
-        "paciente": "Paola Muñoz",
-        "fecha": "2023-11-25",
-        "hora": "15:49",
-        "consultorio": "501",
-        "doctor": "Jenifer Sarria",
-        "tratamiento": "Imagenología"
-      },
-      "id": 36
-    },
-    {
-      "cita": {
-        "paciente": "Ana Marin",
-        "fecha": "2023-11-25",
-        "hora": "15:49",
-        "consultorio": "501",
-        "doctor": "Jose Castillo",
-        "tratamiento": "Diseño"
-      },
-      "id": 40
-    },
-    {
-      "cita": {
-        "paciente": "Diana Rojas",
-        "fecha": "2023-11-25",
-        "hora": "15:49",
-        "consultorio": "501",
-        "doctor": "Jorge Muñoz",
-        "tratamiento": "Extracción"
-      },
-      "id": 41
-    },
-    {
-      "cita": {
-        "paciente": "Lorena Muñoz",
-        "fecha": "2023-11-25",
-        "hora": "17:34",
-        "consultorio": "101",
-        "doctor": "Jorge Muñoz",
-        "tratamiento": "Diseño Sonrisa"
-      },
-      "id": 42
-    },
-    {
-      "cita": {
-        "paciente": "Natalia Londoño",
-        "fecha": "2023-11-25",
-        "hora": "17:45",
-        "consultorio": "401",
-        "doctor": "Edwin Perez",
-        "tratamiento": "Diseño Sonrisa"
-      },
-      "id": 43
-    },
-    {
-      "cita": {
-        "paciente": "Larry Vasquez",
-        "fecha": "2023-11-25",
-        "hora": "17:46",
-        "consultorio": "101",
-        "doctor": "Jorge Muñoz",
-        "tratamiento": "Odontopediatría"
-      },
-      "id": 44
-    },
-    {
-      "cita": {
-        "paciente": "Luisa Vasquez",
-        "fecha": "2023-11-27",
-        "hora": "14:17",
-        "consultorio": "502",
-        "doctor": "Andrea Reyes",
-        "tratamiento": "Diseño Sonrisa"
-      },
-      "id": 49
-    },
-    {
-      "cita": {
-        "paciente": "Larry Vasquez",
-        "fecha": "2023-11-27",
-        "hora": "14:17",
-        "consultorio": "101",
-        "doctor": "Jorge Muñoz",
-        "tratamiento": "Diseño Sonrisa"
-      },
-      "id": 52
-    },
-    {
-      "cita": {
-        "paciente": "Diana Rojas",
-        "fecha": "2023-11-27",
-        "hora": "14:26",
-        "consultorio": "101",
-        "doctor": "Jorge Muñoz",
-        "tratamiento": "Blanqueamiento"
-      },
-      "id": 53
-    },
-    {
-      "cita": {
-        "paciente": "Larry Vasquez",
-        "fecha": "2023-11-27",
-        "hora": "14:27",
-        "consultorio": "401",
-        "doctor": "Edwin Perez",
-        "tratamiento": "Diseño Sonrisa"
-      },
-      "id": 54
-    },
-    {
-      "cita": {
-        "paciente": "Ana Marin",
-        "fecha": "2023-11-27",
-        "hora": "14:27",
-        "consultorio": "502",
-        "doctor": "Andrea Reyes",
-        "tratamiento": "Odontopediatría"
-      },
-      "id": 55
-    },
-    {
-      "cita": {
-        "paciente": "Luisa Vasquez",
-        "fecha": "2023-11-27",
-        "hora": "14:27",
-        "consultorio": "502",
-        "doctor": "Lorenzo Lopez",
-        "tratamiento": "Odontopediatría"
-      },
-      "id": 56
-    },
-    {
-      "cita": {
-        "paciente": "Natalia Londoño",
-        "fecha": "2023-11-27",
-        "hora": "14:29",
-        "consultorio": "302",
-        "doctor": "Erika Serna",
-        "tratamiento": "Blanqueamiento"
-      },
-      "id": 58
-    },
-    {
-      "cita": {
-        "paciente": "Juan Lleras",
-        "fecha": "2023-11-27",
-        "hora": "14:29",
-        "consultorio": "302",
-        "doctor": "Erika",
-        "tratamiento": "Blanqueamiento"
-      },
-      "id": 59
-    }
-  ],
-  "pacientes": [
-    {
-      "paciente": {
-        "identificacion": "1061",
-        "nombre": "Larry",
-        "apellido": "Vasquez",
-        "genero": "Masculino",
-        "eps": "Sanitas"
+      "apartamento": {
+        "nombre":"Condominio Versalles", 
+        "categoria":"Apartamento", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"95",
+        "valor":"$ 120.000.000",
+        "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 1
     },
     {
-      "paciente": {
-        "identificacion": "1062",
-        "nombre": "Jose",
-        "apellido": "Roman",
-        "genero": "Masculino",
-        "eps": "Compensar"
+      "apartamento": {
+        "nombre":"Torres del Rio", 
+        "categoria":"Apartamento", 
+        "tipo":"Arriendo",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"1",
+        "area":"75",
+        "valor":"$ 950.000",
+        "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 2
     },
     {
-      "paciente": {
-        "identificacion": "1063",
-        "nombre": "Paola",
-        "apellido": "Muñoz",
-        "genero": "Femenino",
-        "eps": "Nueva EPS"
+      "apartamento": {
+        "nombre":"Terrazas del Campestre", 
+        "categoria":"Apartamento", 
+        "tipo":"Venta",
+        "habitaciones":"2",
+        "baños":"1",
+        "parqueaderos":"1",
+        "area":"102",
+        "valor":"$ 145.000.000",
+        "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 3
     },
     {
-      "paciente": {
-        "identificacion": "1064",
-        "nombre": "Luisa",
-        "apellido": "Vasquez",
-        "genero": "No binario",
-        "eps": "SaludTotal"
+      "apartamento": {
+        "nombre":"La Estación", 
+        "categoria":"Apartamento", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"78",
+        "valor":"$ 125.000.000",
+        "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 4
     },
     {
-      "paciente": {
-        "identificacion": "1065",
-        "nombre": "Diana",
-        "apellido": "Rojas",
-        "genero": "Femenino",
-        "eps": "Sura"
+      "apartamento": {
+        "nombre":"Condominio La Rivera", 
+        "categoria":"Apartamento", 
+        "tipo":"Venta",
+        "habitaciones":"2",
+        "baños":"1",
+        "parqueaderos":"1",
+        "area":"75",
+        "valor":"$ 105.000.000",
+        "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 5
     },
     {
-      "paciente": {
-        "identificacion": "1066",
-        "nombre": "Juan",
-        "apellido": "Lleras",
-        "genero": "No binario",
-        "eps": "Sanitas"
+      "apartamento": {
+        "nombre":"Morinda Vittal", 
+        "categoria":"Apartamento", 
+        "tipo":"Arriendo",
+        "habitaciones":"2",
+        "baños":"1",
+        "parqueaderos":"1",
+        "area":"85",
+        "valor":"$ 850.000",
+        "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 6
     },
     {
-      "paciente": {
-        "identificacion": "1067",
-        "nombre": "Natalia",
-        "apellido": "Londoño",
-        "genero": "Femenino",
-        "eps": "SOS"
+      "apartamento": {
+        "nombre":"Torres del Parque", 
+        "categoria":"Apartamento", 
+        "tipo":"Arriendo",
+        "habitaciones":"2",
+        "baños":"2",
+        "parqueaderos":"1",
+        "area":"70",
+        "valor":"$ 1.200.000",
+        "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 7
     },
     {
-      "paciente": {
-        "identificacion": "1068",
-        "nombre": "Lorena",
-        "apellido": "Muñoz",
-        "genero": "No binario",
-        "eps": "Nueva EPS"
+      "apartamento": {
+        "nombre":"Condominio La Floresta", 
+        "categoria":"Apartamento", 
+        "tipo":"Arriendo",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"1",
+        "area":"95",
+        "valor":"$ 1.000.000",
+        "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 8
     },
     {
-      "paciente": {
-        "identificacion": "1069",
-        "nombre": "Ana",
-        "apellido": "Marin",
-        "genero": "Femenino",
-        "eps": "Emssanar"
+      "apartamento": {
+        "nombre":"Llanos de Calibio", 
+        "categoria":"Apartamento", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"1",
+        "area":"82",
+        "valor":"$ 160.000.000",
+        "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 9
     },
     {
-      "paciente": {
-        "identificacion": "1070",
-        "nombre": "Pepe",
-        "apellido": "Sanz",
-        "genero": "Masculino",
-        "eps": "Cruz Blanca"
+      "apartamento": {
+        "nombre":"Moscopán", 
+        "categoria":"Apartamento", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"1",
+        "area":"75",
+        "valor":"$ 90.000.000",
+        "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+        "ciudad":"Popayán"
       },
       "id": 10
-    },
-    {
-      "paciente": {
-        "identificacion": "1071",
-        "nombre": "Adriana",
-        "apellido": "Torres",
-        "genero": "No binario",
-        "eps": "Sanitas"
-      },
-      "id": 11
     }
   ],
-  "doctores": [
+  "casas": [
     {
-      "doctor": {
-        "nombre": "Jorge",
-        "apellido": "Muñoz",
-        "especialidad": "Odontólogo"
+      "casa": {
+        "nombre":"Ciudad Verde", 
+        "categoria":"Casa", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"130",
+        "valor":"$ 240.000.000",
+        "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 1
     },
     {
-      "doctor": {
-        "nombre": "Jose",
-        "apellido": "Castillo",
-        "especialidad": "Ortodoncista"
+      "casa": {
+        "nombre":"La Playa", 
+        "categoria":"Casa", 
+        "tipo":"Venta",
+        "habitaciones":"2",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"145",
+        "valor":"$ 380.000.000",
+        "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 2
     },
     {
-      "doctor": {
-        "nombre": "Mateo",
-        "apellido": "García",
-        "especialidad": "Imagenología"
+      "casa": {
+        "nombre":"Antonio Nariño", 
+        "categoria":"Casa", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"128",
+        "valor":"$ 220.000.000",
+        "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 3
     },
     {
-      "doctor": {
-        "nombre": "Edwin",
-        "apellido": "Perez",
-        "especialidad": "Odontólogo"
+      "casa": {
+        "nombre":"Santa Inés", 
+        "categoria":"Casa", 
+        "tipo":"Arriendo",
+        "habitaciones":"4",
+        "baños":"3",
+        "parqueaderos":"3",
+        "area":"110",
+        "valor":"$ 1.200.000",
+        "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 4
     },
     {
-      "doctor": {
-        "nombre": "Erika",
-        "apellido": "Serna",
-        "especialidad": "Periodoncista"
+      "casa": {
+        "nombre":"Condominio Habitania", 
+        "categoria":"Casa", 
+        "tipo":"Arriendo",
+        "habitaciones":"5",
+        "baños":"3",
+        "parqueaderos":"3",
+        "area":"135",
+        "valor":"$ 1.500.000",
+        "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 5
     },
     {
-      "doctor": {
-        "nombre": "Antonio",
-        "apellido": "Restrepo",
-        "especialidad": "Imagenología"
+      "casa": {
+        "nombre":"Conjunto Alcalá", 
+        "categoria":"Casa", 
+        "tipo":"Venta",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"125",
+        "valor":"$ 175.000.000",
+        "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 6
     },
     {
-      "doctor": {
-        "nombre": "Andrea",
-        "apellido": "Reyes",
-        "especialidad": "Odontopediatra"
+      "casa": {
+        "nombre":"Lomalinda", 
+        "categoria":"Casa", 
+        "tipo":"Arriendo",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"150",
+        "valor":"$ 1.100.000",
+        "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 7
     },
     {
-      "doctor": {
-        "nombre": "Jenifer",
-        "apellido": "Sarria",
-        "especialidad": "Extracción"
+      "casa": {
+        "nombre":"Campamento", 
+        "categoria":"Casa", 
+        "tipo":"Arriendo",
+        "habitaciones":"4",
+        "baños":"2",
+        "parqueaderos":"2",
+        "area":"160",
+        "valor":"$ 1.400.000",
+        "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 8
     },
     {
-      "doctor": {
-        "nombre": "Lorenzo",
-        "apellido": "Lopez",
-        "especialidad": "Diseño Sonrisa"
+      "casa": {
+        "nombre":"Villa Mercedes", 
+        "categoria":"Casa", 
+        "tipo":"Arriendo",
+        "habitaciones":"3",
+        "baños":"2",
+        "parqueaderos":"1",
+        "area":"140",
+        "valor":"$ 1.100.000",
+        "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 9
     },
     {
-      "doctor": {
-        "nombre": "Johana",
-        "apellido": "Dorado",
-        "especialidad": "Prótesis"
+      "casa": {
+        "nombre":"Conjunto Portachuelo", 
+        "categoria":"Casa", 
+        "tipo":"Venta",
+        "habitaciones":"4",
+        "baños":"3",
+        "parqueaderos":"2",
+        "area":"130",
+        "valor":"$ 320.000.000",
+        "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+        "ciudad":"Popayán"
       },
       "id": 10
-    },
-    {
-      "doctor": {
-        "nombre": "Rene",
-        "apellido": "Rosas",
-        "especialidad": "Odontopediatría"
-      },
-      "id": 12
-    }
-  ],
-  "tratamientos": [
-    {
-      "tratamiento": {
-        "nombre": "Diseño Sonrisa",
-        "consultorio": "101",
-        "doctor": "Antonio Restrepo"
-      },
-      "id": 1
-    },
-    {
-      "tratamiento": {
-        "nombre": "Blanqueamiento",
-        "consultorio": "102",
-        "doctor": "Jorge Muñoz"
-      },
-      "id": 2
-    },
-    {
-      "tratamiento": {
-        "nombre": "Ortodoncia",
-        "consultorio": "201",
-        "doctor": "Mateo Garcia"
-      },
-      "id": 3
-    },
-    {
-      "tratamiento": {
-        "nombre": "Cirugía",
-        "consultorio": "302",
-        "doctor": "Lorenzo Lopez"
-      },
-      "id": 6
-    },
-    {
-      "tratamiento": {
-        "nombre": "Extracción",
-        "consultorio": "401",
-        "doctor": "Jose Castillo"
-      },
-      "id": 7
-    },
-    {
-      "tratamiento": {
-        "nombre": "Imagenología",
-        "consultorio": "402",
-        "doctor": "Jenifer Sarria"
-      },
-      "id": 8
-    },
-    {
-      "tratamiento": {
-        "nombre": "Odontopediatría",
-        "consultorio": "502",
-        "doctor": "Andrea Reyes"
-      },
-      "id": 9
-    }
-  ],
-  "consultorios": [
-    {
-      "consultorio": {
-        "numero": 101,
-        "nombre": "Blanqueamiento"
-      },
-      "id": 1
-    },
-    {
-      "consultorio": {
-        "numero": 102,
-        "nombre": "Higiene"
-      },
-      "id": 2
-    },
-    {
-      "consultorio": {
-        "numero": 201,
-        "nombre": "Prótesis"
-      },
-      "id": 3
-    },
-    {
-      "consultorio": {
-        "numero": 202,
-        "nombre": "Ortodoncia"
-      },
-      "id": 4
-    },
-    {
-      "consultorio": {
-        "numero": 301,
-        "nombre": "Diseño Sonrisa"
-      },
-      "id": 5
-    },
-    {
-      "consultorio": {
-        "numero": 302,
-        "nombre": "Endodoncia"
-      },
-      "id": 6
-    },
-    {
-      "consultorio": {
-        "numero": "401",
-        "nombre": "Detartraje"
-      },
-      "id": 7
-    },
-    {
-      "consultorio": {
-        "numero": "402",
-        "nombre": "Laboratorio"
-      },
-      "id": 8
-    },
-    {
-      "consultorio": {
-        "numero": "501",
-        "nombre": "Rayos X"
-      },
-      "id": 9
-    },
-    {
-      "consultorio": {
-        "numero": "502",
-        "nombre": "Periodoncia"
-      },
-      "id": 10
-    }
-  ],
-  "epss": [
-    {
-      "eps": {
-        "nombre": " Sanitas",
-        "convenio": "POS"
-      },
-      "id": 1
-    },
-    {
-      "eps": {
-        "nombre": "Nueva EPS",
-        "convenio": "POS"
-      },
-      "id": 2
-    },
-    {
-      "eps": {
-        "nombre": "Comfenalco",
-        "convenio": "POSS"
-      },
-      "id": 3
-    },
-    {
-      "eps": {
-        "nombre": "Emssanar",
-        "convenio": "POS"
-      },
-      "id": 4
-    },
-    {
-      "eps": {
-        "nombre": "Salud Total",
-        "convenio": "PAB"
-      },
-      "id": 5
-    },
-    {
-      "eps": {
-        "nombre": "Sura",
-        "convenio": "POS"
-      },
-      "id": 6
-    },
-    {
-      "eps": {
-        "nombre": "SOS",
-        "convenio": "PAB"
-      },
-      "id": 7
-    },
-    {
-      "eps": {
-        "nombre": "Cruz Blanca",
-        "convenio": "POSS"
-      },
-      "id": 8
-    },
-    {
-      "eps": {
-        "nombre": "Compensar",
-        "convenio": "POSS"
-      },
-      "id": 9
-    },
-    {
-      "eps": {
-        "nombre": "Salud Vida",
-        "convenio": "PAB"
-      },
-      "id": 10
-    }
-  ],
-  "generos": [
-    {
-      "genero": {
-        "nombre": "Femenino"
-      },
-      "id": 1
-    },
-    {
-      "genero": {
-        "nombre": "Masculino"
-      },
-      "id": 2
-    },
-    {
-      "genero": {
-        "nombre": "No binario"
-      },
-      "id": 3
     }
   ]
 }

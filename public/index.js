@@ -1,12 +1,12 @@
 // DEV
-// const ip = 'localhost';
-// const puerto = '3000';
-// const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
-// const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
+const ip = 'localhost';
+const puerto = '3000';
+const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
+const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
 
 // NON-PROD
-const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
-const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
+// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
+// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
 
 // PROD
 // const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos';
@@ -40,7 +40,7 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
               <th> <i class="fa fa-car"></i> </th>
-              <th> area </th>
+              <th> área </th>
               <th> valor </th>
               <th> descripción </th>
               <th> ciudad </th>
@@ -91,7 +91,7 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
               <th> <i class="fa fa-car"></i> </th>
-              <th> area </th>
+              <th> área </th>
               <th> valor </th>
               <th> descripción </th>
               <th> ciudad </th>

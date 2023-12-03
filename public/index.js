@@ -34,7 +34,7 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
           <hr/>
           <table border='1'>
             <tr>
-              <th> N° </th>
+              <th> n° </th>
               <th> nombre </th>
               <th> categoria </th>
               <th> tipo </th>
@@ -75,161 +75,55 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
       contenidoApartamentos.innerHTML = headerApartamentos + bodyApartamentos.join('') + footerApartamentos;
 });
 
-fetch(urlApiPacientes)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+fetch(urlApiCasas)                 //API REST para la simulación de la tabla tratamientos de la base de datos
   .then(response => response.json())
-  .then(pacientes => {
-      let contenidoPacientes = document.getElementById('contenidoPacientes');
+  .then(casas => {
+      let contenidoCasas = document.getElementById('contenidoCasas');
 
-      const headerPacientes = `
+      const headerCasas = `
         <div class="columnaContenido">  
           <hr/>
-          <h3> Pacientes Afiliados </h3>
+          <h3> Casas </h3>
           <hr/>
           <table border='1'>
             <tr>
-              <th> Id </th>
-              <th> Identificación </th>
-              <th> Nombre </th>
-              <th> Apellido </th>
-              <th> Género </th>
-              <th> Eps </th>
+              <th> n° </th>
+              <th> nombre </th>
+              <th> categoria </th>
+              <th> tipo </th>
+              <th> <i class="fa fa-bed"></i> </th>
+              <th> <i class="fa fa-bath"></i> </th>
+              <th> <i class="fa fa-car"></i> </th>
+              <th> area </th>
+              <th> valor </th>
+              <th> descripcion </th>
+              <th> ciudad </th>
             </tr>  
         `;
 
-        let bodyPacientes = [];
-        for (const [i] of pacientes.entries()) {
-          bodyPacientes[i] = `
+        let bodyCasas = [];
+        for (const [i] of casas.entries()) {
+          bodyCasas[i] = `
             <tr>
-              <td> ${pacientes[i].id} </td>
-              <td> ${pacientes[i].paciente.identificacion} </td>
-              <td> ${pacientes[i].paciente.nombre} </td>
-              <td> ${pacientes[i].paciente.apellido} </td>
-              <td> ${pacientes[i].paciente.genero} </td>
-              <td> ${pacientes[i].paciente.eps} </td>
+            <td> ${casas[i].id} </td>
+            <td> ${casas[i].casa.nombre} </td>
+            <td> ${casas[i].casa.categoria} </td>
+            <td> ${casas[i].casa.tipo} </td>
+            <td> ${casas[i].casa.habitaciones} </td>
+            <td> ${casas[i].casa.baños} </td>
+            <td> ${casas[i].casa.parqueaderos} </td>
+            <td> ${casas[i].casa.area} </td>
+            <td> ${casas[i].casa.valor} </td>
+            <td> ${casas[i].casa.descripcion} </td>
+            <td> ${casas[i].casa.ciudad} </td>
             </tr>
         `};
 
-        const footerPacientes = `
+        const footerCasas = `
             </table>
           </div>
           <br></br><br></br><br></br><br></br><br></br>
         `;
 
-        contenidoPacientes.innerHTML = headerPacientes + bodyPacientes.join('') + footerPacientes;
+        contenidoCasas.innerHTML = headerCasas + bodyCasas.join('') + footerCasas;
 });
-
-fetch(urlApiTratamientos)                 //API REST para la simulación de la tabla tratamientos de la base de datos
-  .then(response => response.json())
-  .then(tratamientos => {
-      let contenidoTratamientos = document.getElementById('contenidoTratamientos');
-
-      const headerTratamientos = `
-        <div class="columnaContenido"> 
-        <hr/>
-        <h3> Tratamientos Autorizados </h3>
-        <hr/>
-        <table border='1'>
-          <tr>
-            <th> N° </th>
-            <th> Tratamiento </th>
-            <th> Consultorio </th>
-            <th> Doctor </th>
-          </tr>      
-        `;
-
-        let bodyTratamientos = [];
-          for (const [i] of tratamientos.entries()) {
-            bodyTratamientos[i] = `
-              <tr>
-                <td> ${tratamientos[i].id} </td>
-                <td> ${tratamientos[i].tratamiento.nombre} </td>
-                <td> ${tratamientos[i].tratamiento.consultorio} </td>
-                <td> ${tratamientos[i].tratamiento.doctor} </td>
-              </tr>
-        `};
-
-        const footerTratamientos = `
-                </table>
-              </div>
-              <br></br><br></br><br></br><br></br><br></br><br></br>
-        `;
-
-        contenidoTratamientos.innerHTML = headerTratamientos + bodyTratamientos.join('') + footerTratamientos; 
-  });
-
-fetch(urlApiDoctores)                 //API REST para la simulación de la tabla doctores de la base de datos
-  .then(response => response.json())
-  .then(doctores => {
-      let contenidoDoctores = document.getElementById('contenidoDoctores');
-
-      const headerDoctores =  `  
-        <div class="columnaContenido"> 
-          <hr/>
-          <h3> Doctores Disponibles </h3>
-          <hr/>
-            <table border='1'>
-              <tr>
-                <th> Id </th>
-                <th> Nombre </th>
-                <th> Apellido </th>
-                <th> Especialidad </th>
-              </tr>       
-          `;
-
-          let bodyDoctores = [];
-          for (const [i] of doctores.entries()) {
-            bodyDoctores[i] = `
-                  <tr>
-                    <td> ${doctores[i].id} </td>
-                    <td> ${doctores[i].doctor.nombre} </td>
-                    <td> ${doctores[i].doctor.apellido} </td>
-                    <td> ${doctores[i].doctor.especialidad} </td>
-                  </tr>
-          `};
-
-          const footerDoctores = `  
-                  </table>
-                </div>
-                <br></br><br></br><br></br><br></br><br></br><br></br>
-          `;
-
-          contenidoDoctores.innerHTML = headerDoctores + bodyDoctores.join('') + footerDoctores;
-  });
-
-  fetch(urlApiConsultorios)                 //API REST para la simulación de la tabla tratamientos de la base de datos
-    .then(response => response.json())
-    .then(consultorios => {
-        let contenidoConsultorios = document.getElementById('contenidoConsultorios');
-  
-        const headerConsultorios = ` 
-        <div class="columnaContenido">  
-        <hr/>
-        <h3> Consultorios Disponibles </h3>
-        <hr/>
-        <table border='1'>
-          <tr>
-            <th> N° </th>
-            <th> Número </th>
-            <th> Consultorio </th>
-          </tr>  
-        `;
-
-        let bodyConsultorios = [];
-        for (const [i] of consultorios.entries()) {
-          bodyConsultorios[i] = `
-            <tr>
-              <td> ${consultorios[i].id} </td>
-              <td> ${consultorios[i].consultorio.numero} </td>
-              <td> ${consultorios[i].consultorio.nombre} </td>
-            </tr> 
-        `};
-
-        const footerConsultorios = ` 
-              </table>
-            </div>        
-            <br></br><br></br><br></br><br></br><br></br><br></br>
-
-        `;
-
-        contenidoConsultorios.innerHTML = headerConsultorios + bodyConsultorios.join('') + footerConsultorios;
-  });

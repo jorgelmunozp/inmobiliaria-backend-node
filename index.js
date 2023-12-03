@@ -1,25 +1,16 @@
 // DEV
-// const ip = 'localhost';
-// const puerto = '3000';
-// const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
-// const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
-// const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
-// const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
-// const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
+const ip = 'localhost';
+const puerto = '3000';
+const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
+const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
 
 // NON-PROD
-const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
-const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
-const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas.json';
-const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes.json';
-const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios.json';
+// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
+// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
 
 // PROD
-// const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos';
-// const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores';
-// const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas';
-// const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes';
-// const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios';
+// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos';
+// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -31,49 +22,57 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
   minimumFractionDigits: 0
 });
 
-fetch(urlApiCitas)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+fetch(urlApiApartamentos)                 //API REST para la simulación de la tabla tratamientos de la base de datos
   .then(response => response.json())
-  .then(citas => {
-    let contenidoCitas = document.getElementById('contenidoCitas');
+  .then(apartamentos => {
+      let contenidoApartamentos = document.getElementById('contenidoApartamentos');
 
-      const headerCitas = `
+      const headerApartamentos = `
         <div class="columnaContenido">
           <hr/>
-          <h3> Citas Médicas </h3>
+          <h3> Apartamentos </h3>
           <hr/>
           <table border='1'>
             <tr>
               <th> N° </th>
-              <th> Paciente </th>
-              <th> Fecha </th>
-              <th> Hora </th>
-              <th> Consultorio </th>
-              <th> Médico </th>
-              <th> Tratamiento </th>
+              <th> nombre </th>
+              <th> categoria </th>
+              <th> tipo </th>
+              <th> <i class="fa fa-bed"></i> </th>
+              <th> <i class="fa fa-bath"></i> </th>
+              <th> <i class="fa fa-car"></i> </th>
+              <th> area </th>
+              <th> valor </th>
+              <th> descripcion </th>
+              <th> ciudad </th>
             </tr>
       `;
 
-      let bodyCitas = [];
-      for (const [i] of citas.entries()) {
-        bodyCitas[i] = `
+      let bodyApartamentos = [];
+      for (const [i] of apartamentos.entries()) {
+        bodyApartamentos[i] = `
           <tr>
-            <td> ${citas[i].id} </td>
-            <td> ${citas[i].cita.paciente} </td>
-            <td> ${citas[i].cita.fecha} </td>
-            <td> ${citas[i].cita.hora} </td>
-            <td> ${citas[i].cita.consultorio} </td>
-            <td> ${citas[i].cita.doctor} </td>
-            <td> ${citas[i].cita.tratamiento} </td>
+            <td> ${apartamentos[i].id} </td>
+            <td> ${apartamentos[i].apartamento.nombre} </td>
+            <td> ${apartamentos[i].apartamento.categoria} </td>
+            <td> ${apartamentos[i].apartamento.tipo} </td>
+            <td> ${apartamentos[i].apartamento.habitaciones} </td>
+            <td> ${apartamentos[i].apartamento.baños} </td>
+            <td> ${apartamentos[i].apartamento.parqueaderos} </td>
+            <td> ${apartamentos[i].apartamento.area} </td>
+            <td> ${apartamentos[i].apartamento.valor} </td>
+            <td> ${apartamentos[i].apartamento.descripcion} </td>
+            <td> ${apartamentos[i].apartamento.ciudad} </td>
         </tr>  
       `};
 
-      const footerCitas = `
+      const footerApartamentos = `
             </table>
           </div>
           <br></br><br></br><br></br><br></br>
       `;
 
-      contenidoCitas.innerHTML = headerCitas + bodyCitas.join('') + footerCitas;
+      contenidoApartamentos.innerHTML = headerApartamentos + bodyApartamentos.join('') + footerApartamentos;
 });
 
 fetch(urlApiPacientes)                 //API REST para la simulación de la tabla tratamientos de la base de datos

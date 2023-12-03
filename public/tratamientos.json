@@ -1,0 +1,58 @@
+[
+      {
+        "tratamiento": {
+          "nombre": "Diseño Sonrisa",
+          "consultorio": "101",
+          "doctor": "Antonio Restrepo"
+        },
+        "id": 1
+      },
+      {
+        "tratamiento": {
+          "nombre": "Blanqueamiento",
+          "consultorio": "102",
+          "doctor": "Jorge Muñoz"
+        },
+        "id": 2
+      },
+      {
+        "tratamiento": {
+          "nombre": "Ortodoncia",
+          "consultorio": "201",
+          "doctor": "Mateo Garcia"
+        },
+        "id": 3
+      },
+      {
+        "tratamiento": {
+          "nombre": "Cirugía",
+          "consultorio": "302",
+          "doctor": "Lorenzo Lopez"
+        },
+        "id": 6
+      },
+      {
+        "tratamiento": {
+          "nombre": "Extracción",
+          "consultorio": "401",
+          "doctor": "Jose Castillo"
+        },
+        "id": 7
+      },
+      {
+        "tratamiento": {
+          "nombre": "Imagenología",
+          "consultorio": "402",
+          "doctor": "Jenifer Sarria"
+        },
+        "id": 8
+      },
+      {
+        "tratamiento": {
+          "nombre": "Odontopediatría",
+          "consultorio": "502",
+          "doctor": "Andrea Reyes"
+        },
+        "id": 9
+      }
+]

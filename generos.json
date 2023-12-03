@@ -1,0 +1,20 @@
+[
+      {
+        "genero": {
+          "nombre": "Femenino"
+        },
+        "id": 1
+      },
+      {
+        "genero": {
+          "nombre": "Masculino"
+        },
+        "id": 2
+      },
+      {
+        "genero": {
+          "nombre": "No binario"
+        },
+        "id": 3
+      }
+]

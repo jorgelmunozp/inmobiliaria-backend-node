@@ -1,0 +1,72 @@
+[
+      {
+        "eps": {
+          "nombre": " Sanitas",
+          "convenio": "POS"
+        },
+        "id": 1
+      },
+      {
+        "eps": {
+          "nombre": "Nueva EPS",
+          "convenio": "POS"
+        },
+        "id": 2
+      },
+      {
+        "eps": {
+          "nombre": "Comfenalco",
+          "convenio": "POSS"
+        },
+        "id": 3
+      },
+      {
+        "eps": {
+          "nombre": "Emssanar",
+          "convenio": "POS"
+        },
+        "id": 4
+      },
+      {
+        "eps": {
+          "nombre": "Salud Total",
+          "convenio": "PAB"
+        },
+        "id": 5
+      },
+      {
+        "eps": {
+          "nombre": "Sura",
+          "convenio": "POS"
+        },
+        "id": 6
+      },
+      {
+        "eps": {
+          "nombre": "SOS",
+          "convenio": "PAB"
+        },
+        "id": 7
+      },
+      {
+        "eps": {
+          "nombre": "Cruz Blanca",
+          "convenio": "POSS"
+        },
+        "id": 8
+      },
+      {
+        "eps": {
+          "nombre": "Compensar",
+          "convenio": "POSS"
+        },
+        "id": 9
+      },
+      {
+        "eps": {
+          "nombre": "Salud Vida",
+          "convenio": "PAB"
+        },
+        "id": 10
+      }
+]

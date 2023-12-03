@@ -1,12 +1,12 @@
 // DEV
-const ip = 'localhost';
-const puerto = '3000';
-const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
-const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
+// const ip = 'localhost';
+// const puerto = '3000';
+// const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
+// const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
 
 // NON-PROD
-// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
-// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
+const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
+const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
 
 // PROD
 // const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos';

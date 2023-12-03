@@ -1,58 +1,152 @@
 [
-      {
-        "tratamiento": {
-          "nombre": "Diseño Sonrisa",
-          "consultorio": "101",
-          "doctor": "Antonio Restrepo"
-        },
-        "id": 1
-      },
-      {
-        "tratamiento": {
-          "nombre": "Blanqueamiento",
-          "consultorio": "102",
-          "doctor": "Jorge Muñoz"
-        },
-        "id": 2
-      },
-      {
-        "tratamiento": {
-          "nombre": "Ortodoncia",
-          "consultorio": "201",
-          "doctor": "Mateo Garcia"
-        },
-        "id": 3
-      },
-      {
-        "tratamiento": {
-          "nombre": "Cirugía",
-          "consultorio": "302",
-          "doctor": "Lorenzo Lopez"
-        },
-        "id": 6
-      },
-      {
-        "tratamiento": {
-          "nombre": "Extracción",
-          "consultorio": "401",
-          "doctor": "Jose Castillo"
-        },
-        "id": 7
-      },
-      {
-        "tratamiento": {
-          "nombre": "Imagenología",
-          "consultorio": "402",
-          "doctor": "Jenifer Sarria"
-        },
-        "id": 8
-      },
-      {
-        "tratamiento": {
-          "nombre": "Odontopediatría",
-          "consultorio": "502",
-          "doctor": "Andrea Reyes"
-        },
-        "id": 9
-      }
+  {
+    "apartamento": {
+      "nombre":"Condominio Versalles", 
+      "categoria":"Apartamento", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"95",
+      "valor":"$ 120.000.000",
+      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 1
+  },
+  {
+    "apartamento": {
+      "nombre":"Torres del Rio", 
+      "categoria":"Apartamento", 
+      "tipo":"Arriendo",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"1",
+      "area":"75",
+      "valor":"$ 950.000",
+      "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 2
+  },
+  {
+    "apartamento": {
+      "nombre":"Terrazas del Campestre", 
+      "categoria":"Apartamento", 
+      "tipo":"Venta",
+      "habitaciones":"2",
+      "baños":"1",
+      "parqueaderos":"1",
+      "area":"102",
+      "valor":"$ 145.000.000",
+      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 3
+  },
+  {
+    "apartamento": {
+      "nombre":"La Estación", 
+      "categoria":"Apartamento", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"78",
+      "valor":"$ 125.000.000",
+      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 4
+  },
+  {
+    "apartamento": {
+      "nombre":"Condominio La Rivera", 
+      "categoria":"Apartamento", 
+      "tipo":"Venta",
+      "habitaciones":"2",
+      "baños":"1",
+      "parqueaderos":"1",
+      "area":"75",
+      "valor":"$ 105.000.000",
+      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 5
+  },
+  {
+    "apartamento": {
+      "nombre":"Morinda Vittal", 
+      "categoria":"Apartamento", 
+      "tipo":"Arriendo",
+      "habitaciones":"2",
+      "baños":"1",
+      "parqueaderos":"1",
+      "area":"85",
+      "valor":"$ 850.000",
+      "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 6
+  },
+  {
+    "apartamento": {
+      "nombre":"Torres del Parque", 
+      "categoria":"Apartamento", 
+      "tipo":"Arriendo",
+      "habitaciones":"2",
+      "baños":"2",
+      "parqueaderos":"1",
+      "area":"70",
+      "valor":"$ 1.200.000",
+      "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 7
+  },
+  {
+    "apartamento": {
+      "nombre":"Condominio La Floresta", 
+      "categoria":"Apartamento", 
+      "tipo":"Arriendo",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"1",
+      "area":"95",
+      "valor":"$ 1.000.000",
+      "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 8
+  },
+  {
+    "apartamento": {
+      "nombre":"Llanos de Calibio", 
+      "categoria":"Apartamento", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"1",
+      "area":"82",
+      "valor":"$ 160.000.000",
+      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 9
+  },
+  {
+    "apartamento": {
+      "nombre":"Moscopán", 
+      "categoria":"Apartamento", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"1",
+      "area":"75",
+      "valor":"$ 90.000.000",
+      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "ciudad":"Popayán"
+    },
+    "id": 10
+  }
 ]

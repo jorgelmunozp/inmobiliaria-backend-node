@@ -1,90 +1,152 @@
 [
-      {
-        "doctor": {
-          "nombre": "Jorge",
-          "apellido": "Muñoz",
-          "especialidad": "Odontólogo"
-        },
-        "id": 1
-      },
-      {
-        "doctor": {
-          "nombre": "Jose",
-          "apellido": "Castillo",
-          "especialidad": "Ortodoncista"
-        },
-        "id": 2
-      },
-      {
-        "doctor": {
-          "nombre": "Mateo",
-          "apellido": "García",
-          "especialidad": "Imagenología"
-        },
-        "id": 3
-      },
-      {
-        "doctor": {
-          "nombre": "Edwin",
-          "apellido": "Perez",
-          "especialidad": "Odontólogo"
-        },
-        "id": 4
-      },
-      {
-        "doctor": {
-          "nombre": "Erika",
-          "apellido": "Serna",
-          "especialidad": "Periodoncista"
-        },
-        "id": 5
-      },
-      {
-        "doctor": {
-          "nombre": "Antonio",
-          "apellido": "Restrepo",
-          "especialidad": "Imagenología"
-        },
-        "id": 6
-      },
-      {
-        "doctor": {
-          "nombre": "Andrea",
-          "apellido": "Reyes",
-          "especialidad": "Odontopediatra"
-        },
-        "id": 7
-      },
-      {
-        "doctor": {
-          "nombre": "Jenifer",
-          "apellido": "Sarria",
-          "especialidad": "Extracción"
-        },
-        "id": 8
-      },
-      {
-        "doctor": {
-          "nombre": "Lorenzo",
-          "apellido": "Lopez",
-          "especialidad": "Diseño Sonrisa"
-        },
-        "id": 9
-      },
-      {
-        "doctor": {
-          "nombre": "Johana",
-          "apellido": "Dorado",
-          "especialidad": "Prótesis"
-        },
-        "id": 10
-      },
-      {
-        "doctor": {
-          "nombre": "Rene",
-          "apellido": "Rosas",
-          "especialidad": "Odontopediatría"
-        },
-        "id": 12
-      }
+  {
+    "casa": {
+      "nombre":"Ciudad Verde", 
+      "categoria":"Casa", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"130",
+      "valor":"$ 240.000.000",
+      "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 1
+  },
+  {
+    "casa": {
+      "nombre":"La Playa", 
+      "categoria":"Casa", 
+      "tipo":"Venta",
+      "habitaciones":"2",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"145",
+      "valor":"$ 380.000.000",
+      "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 2
+  },
+  {
+    "casa": {
+      "nombre":"Antonio Nariño", 
+      "categoria":"Casa", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"128",
+      "valor":"$ 220.000.000",
+      "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 3
+  },
+  {
+    "casa": {
+      "nombre":"Santa Inés", 
+      "categoria":"Casa", 
+      "tipo":"Arriendo",
+      "habitaciones":"4",
+      "baños":"3",
+      "parqueaderos":"3",
+      "area":"110",
+      "valor":"$ 1.200.000",
+      "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 4
+  },
+  {
+    "casa": {
+      "nombre":"Condominio Habitania", 
+      "categoria":"Casa", 
+      "tipo":"Arriendo",
+      "habitaciones":"5",
+      "baños":"3",
+      "parqueaderos":"3",
+      "area":"135",
+      "valor":"$ 1.500.000",
+      "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 5
+  },
+  {
+    "casa": {
+      "nombre":"Conjunto Alcalá", 
+      "categoria":"Casa", 
+      "tipo":"Venta",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"125",
+      "valor":"$ 175.000.000",
+      "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 6
+  },
+  {
+    "casa": {
+      "nombre":"Lomalinda", 
+      "categoria":"Casa", 
+      "tipo":"Arriendo",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"150",
+      "valor":"$ 1.100.000",
+      "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 7
+  },
+  {
+    "casa": {
+      "nombre":"Campamento", 
+      "categoria":"Casa", 
+      "tipo":"Arriendo",
+      "habitaciones":"4",
+      "baños":"2",
+      "parqueaderos":"2",
+      "area":"160",
+      "valor":"$ 1.400.000",
+      "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 8
+  },
+  {
+    "casa": {
+      "nombre":"Villa Mercedes", 
+      "categoria":"Casa", 
+      "tipo":"Arriendo",
+      "habitaciones":"3",
+      "baños":"2",
+      "parqueaderos":"1",
+      "area":"140",
+      "valor":"$ 1.100.000",
+      "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 9
+  },
+  {
+    "casa": {
+      "nombre":"Conjunto Portachuelo", 
+      "categoria":"Casa", 
+      "tipo":"Venta",
+      "habitaciones":"4",
+      "baños":"3",
+      "parqueaderos":"2",
+      "area":"130",
+      "valor":"$ 320.000.000",
+      "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
+      "ciudad":"Popayán"
+    },
+    "id": 10
+  }
 ]

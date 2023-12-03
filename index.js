@@ -36,14 +36,13 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
             <tr>
               <th> n° </th>
               <th> nombre </th>
-              <th> categoria </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
               <th> <i class="fa fa-car"></i> </th>
               <th> area </th>
               <th> valor </th>
-              <th> descripcion </th>
+              <th> descripción </th>
               <th> ciudad </th>
             </tr>
       `;
@@ -54,7 +53,6 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
           <tr>
             <td> ${apartamentos[i].id} </td>
             <td> ${apartamentos[i].apartamento.nombre} </td>
-            <td> ${apartamentos[i].apartamento.categoria} </td>
             <td> ${apartamentos[i].apartamento.tipo} </td>
             <td> ${apartamentos[i].apartamento.habitaciones} </td>
             <td> ${apartamentos[i].apartamento.baños} </td>
@@ -89,14 +87,13 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
             <tr>
               <th> n° </th>
               <th> nombre </th>
-              <th> categoria </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
               <th> <i class="fa fa-car"></i> </th>
               <th> area </th>
               <th> valor </th>
-              <th> descripcion </th>
+              <th> descripción </th>
               <th> ciudad </th>
             </tr>  
         `;
@@ -107,7 +104,6 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
             <tr>
             <td> ${casas[i].id} </td>
             <td> ${casas[i].casa.nombre} </td>
-            <td> ${casas[i].casa.categoria} </td>
             <td> ${casas[i].casa.tipo} </td>
             <td> ${casas[i].casa.habitaciones} </td>
             <td> ${casas[i].casa.baños} </td>

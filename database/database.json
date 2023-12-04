@@ -1,5 +1,5 @@
 {
-  "apartamentos": [
+  "inmuebles": [
     {
       "detalle": {
         "nombre":"Condominio Versalles", 
@@ -159,9 +159,7 @@
         "ciudad":"Popayán"
       },
       "id": 10
-    }
-  ],
-  "casas": [
+    },
     {
       "detalle": {
         "nombre":"Ciudad Verde", 
@@ -176,7 +174,7 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 1
+      "id": 11
     },
     {
       "detalle": {
@@ -192,7 +190,7 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 2
+      "id": 12
     },
     {
       "detalle": {
@@ -208,7 +206,7 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 3
+      "id": 13
     },
     {
       "detalle": {
@@ -224,7 +222,7 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 4
+      "id": 14
     },
     {
       "detalle": {
@@ -240,7 +238,7 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 5
+      "id": 15
     },
     {
       "detalle": {
@@ -256,7 +254,7 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 6
+      "id": 16
     },
     {
       "detalle": {
@@ -272,7 +270,7 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 7
+      "id": 17
     },
     {
       "detalle": {
@@ -288,7 +286,7 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 8
+      "id": 18
     },
     {
       "detalle": {
@@ -304,7 +302,7 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 9
+      "id": 19
     },
     {
       "detalle": {
@@ -320,7 +318,7 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán"
       },
-      "id": 10
+      "id": 20
     }
   ]
 }

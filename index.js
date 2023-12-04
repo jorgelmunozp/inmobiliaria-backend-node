@@ -1,12 +1,12 @@
 // DEV
-const ip = 'localhost';
-const puerto = '3000';
-const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
-const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
+// const ip = 'localhost';
+// const puerto = '3000';
+// const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
+// const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
 
 // NON-PROD
-// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
-// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
+const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
+const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
 
 // PROD
 // const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos';
@@ -35,6 +35,7 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
           <table border='1'>
             <tr>
               <th> n° </th>
+              <th> <i class="fa fa-camera"></i> </th>
               <th> nombre </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
@@ -52,13 +53,14 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
         bodyApartamentos[i] = `
           <tr>
             <td> ${apartamentos[i].id} </td>
+            <td> ${apartamentos[i].apartamento.imagen} </td>
             <td> ${apartamentos[i].apartamento.nombre} </td>
             <td> ${apartamentos[i].apartamento.tipo} </td>
             <td> ${apartamentos[i].apartamento.habitaciones} </td>
             <td> ${apartamentos[i].apartamento.baños} </td>
             <td> ${apartamentos[i].apartamento.parqueaderos} </td>
             <td> ${apartamentos[i].apartamento.area} </td>
-            <td> ${apartamentos[i].apartamento.valor} </td>
+            <td class='precio'> ${apartamentos[i].apartamento.valor} </td>
             <td> ${apartamentos[i].apartamento.descripcion} </td>
             <td> ${apartamentos[i].apartamento.ciudad} </td>
         </tr>  
@@ -86,6 +88,7 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
           <table border='1'>
             <tr>
               <th> n° </th>
+              <th> <i class="fa fa-camera"></i> </th>
               <th> nombre </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
@@ -103,13 +106,14 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
           bodyCasas[i] = `
             <tr>
             <td> ${casas[i].id} </td>
+            <td> ${casas[i].casa.imagen} </td>
             <td> ${casas[i].casa.nombre} </td>
             <td> ${casas[i].casa.tipo} </td>
             <td> ${casas[i].casa.habitaciones} </td>
             <td> ${casas[i].casa.baños} </td>
             <td> ${casas[i].casa.parqueaderos} </td>
             <td> ${casas[i].casa.area} </td>
-            <td> ${casas[i].casa.valor} </td>
+            <td class='precio'> ${casas[i].casa.valor} </td>
             <td> ${casas[i].casa.descripcion} </td>
             <td> ${casas[i].casa.ciudad} </td>
             </tr>

@@ -159,6 +159,11 @@ input[type=submit]:hover {
   padding-right: 5%;
 }
 
-.tratamientos {
-  width: 100%;
+/* Image Card*/
+.imageInmueble {
+  width: 5vmin;
+}
+
+.precio {
+  white-space: nowrap;
 }

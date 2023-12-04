@@ -1,6 +1,7 @@
 [
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Ciudad Verde", 
       "tipo":"Venta",
       "habitaciones":"3",
@@ -15,6 +16,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"La Playa", 
       "tipo":"Venta",
       "habitaciones":"2",
@@ -29,6 +31,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Antonio Nariño", 
       "tipo":"Venta",
       "habitaciones":"3",
@@ -43,6 +46,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Santa Inés", 
       "tipo":"Arriendo",
       "habitaciones":"4",
@@ -57,7 +61,8 @@
   },
   {
     "casa": {
-      "nombre":"Condominio Habitania", 
+      "imagen":"Casa", 
+      "nombre":"Condominio Habitanya", 
       "tipo":"Arriendo",
       "habitaciones":"5",
       "baños":"3",
@@ -71,6 +76,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Conjunto Alcalá", 
       "tipo":"Venta",
       "habitaciones":"3",
@@ -85,6 +91,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Lomalinda", 
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -99,6 +106,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Campamento", 
       "tipo":"Arriendo",
       "habitaciones":"4",
@@ -113,6 +121,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Villa Mercedes", 
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -127,6 +136,7 @@
   },
   {
     "casa": {
+      "imagen":"Casa", 
       "nombre":"Conjunto Portachuelo", 
       "tipo":"Venta",
       "habitaciones":"4",

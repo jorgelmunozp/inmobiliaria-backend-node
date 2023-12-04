@@ -60,7 +60,7 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
             <td> ${apartamentos[i].apartamento.baños} </td>
             <td> ${apartamentos[i].apartamento.parqueaderos} </td>
             <td> ${apartamentos[i].apartamento.area} </td>
-            <td> ${apartamentos[i].apartamento.valor} </td>
+            <td class='precio'> ${apartamentos[i].apartamento.valor} </td>
             <td> ${apartamentos[i].apartamento.descripcion} </td>
             <td> ${apartamentos[i].apartamento.ciudad} </td>
         </tr>  

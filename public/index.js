@@ -1,12 +1,12 @@
 // DEV
-const ip = 'localhost';
-const puerto = '3000';
-const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
-const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
+// const ip = 'localhost';
+// const puerto = '3000';
+// const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
+// const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
 
 // NON-PROD
-// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
-// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
+const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
+const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
 
 // PROD
 // const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos';
@@ -113,7 +113,7 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
             <td> ${casas[i].casa.baños} </td>
             <td> ${casas[i].casa.parqueaderos} </td>
             <td> ${casas[i].casa.area} </td>
-            <td> ${casas[i].casa.valor} </td>
+            <td class='precio'> ${casas[i].casa.valor} </td>
             <td> ${casas[i].casa.descripcion} </td>
             <td> ${casas[i].casa.ciudad} </td>
             </tr>

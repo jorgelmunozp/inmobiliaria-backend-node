@@ -3,6 +3,7 @@
     {
       "apartamento": {
         "nombre":"Condominio Versalles", 
+        "imagen":"Apto", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -17,6 +18,7 @@
     {
       "apartamento": {
         "nombre":"Torres del Rio", 
+        "imagen":"Apto", 
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -31,6 +33,7 @@
     {
       "apartamento": {
         "nombre":"Terrazas del Campestre", 
+        "imagen":"Apto", 
         "tipo":"Venta",
         "habitaciones":"2",
         "baños":"1",
@@ -45,6 +48,7 @@
     {
       "apartamento": {
         "nombre":"La Estación", 
+        "imagen":"Apto", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -59,6 +63,7 @@
     {
       "apartamento": {
         "nombre":"Condominio La Rivera", 
+        "imagen":"Apto", 
         "tipo":"Venta",
         "habitaciones":"2",
         "baños":"1",
@@ -73,6 +78,7 @@
     {
       "apartamento": {
         "nombre":"Morinda Vittal", 
+        "imagen":"Apto", 
         "tipo":"Arriendo",
         "habitaciones":"2",
         "baños":"1",
@@ -87,6 +93,7 @@
     {
       "apartamento": {
         "nombre":"Torres del Parque", 
+        "imagen":"Apto", 
         "tipo":"Arriendo",
         "habitaciones":"2",
         "baños":"2",
@@ -101,6 +108,7 @@
     {
       "apartamento": {
         "nombre":"Condominio La Floresta", 
+        "imagen":"Apto", 
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -115,6 +123,7 @@
     {
       "apartamento": {
         "nombre":"Llanos de Calibio", 
+        "imagen":"Apto", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -129,6 +138,7 @@
     {
       "apartamento": {
         "nombre":"Moscopán", 
+        "imagen":"Apto", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -145,6 +155,7 @@
     {
       "casa": {
         "nombre":"Ciudad Verde", 
+        "imagen":"Casa", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -159,6 +170,7 @@
     {
       "casa": {
         "nombre":"La Playa", 
+        "imagen":"Casa", 
         "tipo":"Venta",
         "habitaciones":"2",
         "baños":"2",
@@ -173,6 +185,7 @@
     {
       "casa": {
         "nombre":"Antonio Nariño", 
+        "imagen":"Casa", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -187,6 +200,7 @@
     {
       "casa": {
         "nombre":"Santa Inés", 
+        "imagen":"Casa", 
         "tipo":"Arriendo",
         "habitaciones":"4",
         "baños":"3",
@@ -201,6 +215,7 @@
     {
       "casa": {
         "nombre":"Condominio Habitania", 
+        "imagen":"Casa", 
         "tipo":"Arriendo",
         "habitaciones":"5",
         "baños":"3",
@@ -215,6 +230,7 @@
     {
       "casa": {
         "nombre":"Conjunto Alcalá", 
+        "imagen":"Casa", 
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -229,6 +245,7 @@
     {
       "casa": {
         "nombre":"Lomalinda", 
+        "imagen":"Casa", 
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -243,6 +260,7 @@
     {
       "casa": {
         "nombre":"Campamento", 
+        "imagen":"Casa", 
         "tipo":"Arriendo",
         "habitaciones":"4",
         "baños":"2",
@@ -257,6 +275,7 @@
     {
       "casa": {
         "nombre":"Villa Mercedes", 
+        "imagen":"Casa", 
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -271,6 +290,7 @@
     {
       "casa": {
         "nombre":"Conjunto Portachuelo", 
+        "imagen":"Casa", 
         "tipo":"Venta",
         "habitaciones":"4",
         "baños":"3",

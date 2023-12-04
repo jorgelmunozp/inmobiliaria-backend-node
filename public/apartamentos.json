@@ -1,6 +1,7 @@
 [
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Condominio Versalles", 
       "tipo":"Venta",
       "habitaciones":"3",
@@ -15,6 +16,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Torres del Rio", 
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -29,6 +31,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Terrazas del Campestre", 
       "tipo":"Venta",
       "habitaciones":"2",
@@ -43,6 +46,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"La Estación", 
       "tipo":"Venta",
       "habitaciones":"3",
@@ -57,6 +61,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Condominio La Rivera", 
       "tipo":"Venta",
       "habitaciones":"2",
@@ -71,6 +76,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Morinda Vittal", 
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -85,6 +91,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Torres del Parque", 
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -99,6 +106,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Condominio La Floresta", 
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -113,6 +121,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Llanos de Calibio", 
       "tipo":"Venta",
       "habitaciones":"3",
@@ -127,6 +136,7 @@
   },
   {
     "apartamento": {
+      "imagen":"Apto", 
       "nombre":"Moscopán", 
       "tipo":"Venta",
       "habitaciones":"3",

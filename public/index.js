@@ -35,6 +35,7 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
           <table border='1'>
             <tr>
               <th> n° </th>
+              <th> <i class="fa fa-camera"></i> </th>
               <th> nombre </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
@@ -52,6 +53,7 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
         bodyApartamentos[i] = `
           <tr>
             <td> ${apartamentos[i].id} </td>
+            <td> ${apartamentos[i].apartamento.imagen} </td>
             <td> ${apartamentos[i].apartamento.nombre} </td>
             <td> ${apartamentos[i].apartamento.tipo} </td>
             <td> ${apartamentos[i].apartamento.habitaciones} </td>
@@ -86,6 +88,7 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
           <table border='1'>
             <tr>
               <th> n° </th>
+              <th> <i class="fa fa-camera"></i> </th>
               <th> nombre </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
@@ -103,6 +106,7 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
           bodyCasas[i] = `
             <tr>
             <td> ${casas[i].id} </td>
+            <td> ${casas[i].casa.imagen} </td>
             <td> ${casas[i].casa.nombre} </td>
             <td> ${casas[i].casa.tipo} </td>
             <td> ${casas[i].casa.habitaciones} </td>

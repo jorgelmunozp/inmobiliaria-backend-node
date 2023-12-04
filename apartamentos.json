@@ -92,7 +92,7 @@
   {
     "apartamento": {
       "nombre":"Torres del Parque", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/7-apartamento-torres-del-parque'/>", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/7-apartamento-torres-del-parque.jpg'/>", 
       "tipo":"Arriendo",
       "habitaciones":"2",
       "baños":"2",

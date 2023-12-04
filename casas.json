@@ -1,8 +1,9 @@
 [
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Ciudad Verde", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/1-casa-ciudad-verde.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
       "baños":"2",
@@ -15,9 +16,10 @@
     "id": 1
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"La Playa", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/2-casa-la-playa.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"2",
       "baños":"2",
@@ -30,9 +32,10 @@
     "id": 2
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Antonio Nariño", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/3-casa-antonio-nariño.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
       "baños":"2",
@@ -45,9 +48,10 @@
     "id": 3
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Santa Inés", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/4-casa-santa-inés.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"4",
       "baños":"3",
@@ -60,9 +64,10 @@
     "id": 4
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Condominio Habitanya", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/5-casa-condominio-habitanya.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"5",
       "baños":"3",
@@ -75,9 +80,10 @@
     "id": 5
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Conjunto Alcalá", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/6-casa-conjunto-alcalá.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
       "baños":"2",
@@ -90,9 +96,10 @@
     "id": 6
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Lomalinda", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/7-casa-lomalinda.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"3",
       "baños":"2",
@@ -105,9 +112,10 @@
     "id": 7
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Campamento", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/8-casa-campamento.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"4",
       "baños":"2",
@@ -120,9 +128,10 @@
     "id": 8
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Villa Mercedes", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/9-casa-villa-mercedes.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"3",
       "baños":"2",
@@ -135,9 +144,10 @@
     "id": 9
   },
   {
-    "casa": {
-      "imagen":"Casa", 
+    "detalle": {
       "nombre":"Conjunto Portachuelo", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/10-casa-conjunto-portachuelo.jpg'/>", 
+      "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"4",
       "baños":"3",

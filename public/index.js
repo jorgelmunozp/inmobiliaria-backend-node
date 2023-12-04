@@ -1,10 +1,10 @@
 // DEV
-const ip = 'localhost';
-const puerto = '3000';
-const urlApiInmuebles = 'http://'+ip+':'+puerto+'/inmuebles';
+// const ip = 'localhost';
+// const puerto = '3000';
+// const urlApiInmuebles = 'http://'+ip+':'+puerto+'/inmuebles';
 
 // NON-PROD
-// const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles.json';
+const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles.json';
 
 // PROD
 // const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles';

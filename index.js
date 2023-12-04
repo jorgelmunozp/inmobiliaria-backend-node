@@ -1,16 +1,13 @@
 // DEV
 // const ip = 'localhost';
 // const puerto = '3000';
-// const urlApiApartamentos = 'http://'+ip+':'+puerto+'/apartamentos';
-// const urlApiCasas = 'http://'+ip+':'+puerto+'/casas';
+// const urlApiInmuebles = 'http://'+ip+':'+puerto+'/inmuebles';
 
 // NON-PROD
-const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos.json';
-const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas.json';
+const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles.json';
 
 // PROD
-// const urlApiApartamentos = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/apartamentos';
-// const urlApiCasas = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/casas';
+// const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -22,9 +19,9 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
   minimumFractionDigits: 0
 });
 
-fetch(urlApiApartamentos)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+fetch(urlApiInmuebles)                 //API REST para la simulación de la tabla Apartamentos de la base de datos
   .then(response => response.json())
-  .then(apartamentos => {
+  .then(inmuebles => {
       let contenidoApartamentos = document.getElementById('contenidoApartamentos');
 
       const headerApartamentos = `
@@ -49,22 +46,24 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
       `;
 
       let bodyApartamentos = [];
-      for (const [i] of apartamentos.entries()) {
-        bodyApartamentos[i] = `
-          <tr>
-            <td> ${apartamentos[i].id} </td>
-            <td> ${apartamentos[i].detalle.imagen} </td>
-            <td> ${apartamentos[i].detalle.nombre} </td>
-            <td> ${apartamentos[i].detalle.tipo} </td>
-            <td> ${apartamentos[i].detalle.habitaciones} </td>
-            <td> ${apartamentos[i].detalle.baños} </td>
-            <td> ${apartamentos[i].detalle.parqueaderos} </td>
-            <td> ${apartamentos[i].detalle.area} </td>
-            <td class='precio'> ${apartamentos[i].detalle.valor} </td>
-            <td> ${apartamentos[i].detalle.descripcion} </td>
-            <td> ${apartamentos[i].detalle.ciudad} </td>
-        </tr>  
-      `};
+      for (const [i] of inmuebles.entries()) {
+        if(inmuebles[i].detalle.categoria === 'Apartamento') {
+          bodyApartamentos[i] = `
+            <tr>
+              <td> ${inmuebles[i].id} </td>
+              <td> ${inmuebles[i].detalle.imagen} </td>
+              <td> ${inmuebles[i].detalle.nombre} </td>
+              <td> ${inmuebles[i].detalle.tipo} </td>
+              <td> ${inmuebles[i].detalle.habitaciones} </td>
+              <td> ${inmuebles[i].detalle.baños} </td>
+              <td> ${inmuebles[i].detalle.parqueaderos} </td>
+              <td> ${inmuebles[i].detalle.area} </td>
+              <td class='precio'> ${inmuebles[i].detalle.valor} </td>
+              <td> ${inmuebles[i].detalle.descripcion} </td>
+              <td> ${inmuebles[i].detalle.ciudad} </td>
+            </tr>  
+        `};
+      }
 
       const footerApartamentos = `
             </table>
@@ -75,9 +74,9 @@ fetch(urlApiApartamentos)                 //API REST para la simulación de la t
       contenidoApartamentos.innerHTML = headerApartamentos + bodyApartamentos.join('') + footerApartamentos;
 });
 
-fetch(urlApiCasas)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+fetch(urlApiInmuebles)                 //API REST para la simulación de la tabla Casas de la base de datos
   .then(response => response.json())
-  .then(casas => {
+  .then(inmuebles => {
       let contenidoCasas = document.getElementById('contenidoCasas');
 
       const headerCasas = `
@@ -102,22 +101,24 @@ fetch(urlApiCasas)                 //API REST para la simulación de la tabla tr
         `;
 
         let bodyCasas = [];
-        for (const [i] of casas.entries()) {
-          bodyCasas[i] = `
-            <tr>
-            <td> ${casas[i].id} </td>
-            <td> ${casas[i].detalle.imagen} </td>
-            <td> ${casas[i].detalle.nombre} </td>
-            <td> ${casas[i].detalle.tipo} </td>
-            <td> ${casas[i].detalle.habitaciones} </td>
-            <td> ${casas[i].detalle.baños} </td>
-            <td> ${casas[i].detalle.parqueaderos} </td>
-            <td> ${casas[i].detalle.area} </td>
-            <td class='precio'> ${casas[i].detalle.valor} </td>
-            <td> ${casas[i].detalle.descripcion} </td>
-            <td> ${casas[i].detalle.ciudad} </td>
-            </tr>
-        `};
+        for (const [i] of inmuebles.entries()) {
+          if(inmuebles[i].detalle.categoria === 'Casa') {
+            bodyCasas[i] = `
+              <tr>
+              <td> ${inmuebles[i].id} </td>
+              <td> ${inmuebles[i].detalle.imagen} </td>
+              <td> ${inmuebles[i].detalle.nombre} </td>
+              <td> ${inmuebles[i].detalle.tipo} </td>
+              <td> ${inmuebles[i].detalle.habitaciones} </td>
+              <td> ${inmuebles[i].detalle.baños} </td>
+              <td> ${inmuebles[i].detalle.parqueaderos} </td>
+              <td> ${inmuebles[i].detalle.area} </td>
+              <td class='precio'> ${inmuebles[i].detalle.valor} </td>
+              <td> ${inmuebles[i].detalle.descripcion} </td>
+              <td> ${inmuebles[i].detalle.ciudad} </td>
+              </tr>
+         `};
+        }
 
         const footerCasas = `
             </table>

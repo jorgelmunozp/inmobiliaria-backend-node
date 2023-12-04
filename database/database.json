@@ -1,9 +1,10 @@
 {
   "apartamentos": [
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Condominio Versalles", 
-        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/1-condominio-versalles.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/1-apartamento-condominio-versalles.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -16,9 +17,10 @@
       "id": 1
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Torres del Rio", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/2-apartamento-torres-del-rio.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -31,9 +33,10 @@
       "id": 2
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Terrazas del Campestre", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/3-apartamento-terrazas-del-campestre.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"2",
         "baños":"1",
@@ -46,9 +49,10 @@
       "id": 3
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"La Estación", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estacion.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -61,9 +65,10 @@
       "id": 4
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Condominio La Rivera", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/5-apartamento-condominio-la-rivera.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"2",
         "baños":"1",
@@ -76,9 +81,10 @@
       "id": 5
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Morinda Vittal", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/6-apartamento-morinda-vittal.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Arriendo",
         "habitaciones":"2",
         "baños":"1",
@@ -91,9 +97,10 @@
       "id": 6
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Torres del Parque", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/7-apartamento-torres-del-parque.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Arriendo",
         "habitaciones":"2",
         "baños":"2",
@@ -106,9 +113,10 @@
       "id": 7
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Condominio La Floresta", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/8-apartamento-condominio-la-floresta.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -121,9 +129,10 @@
       "id": 8
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Llanos de Calibio", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/9-apartamento-llanos-de-calibio.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -136,9 +145,10 @@
       "id": 9
     },
     {
-      "apartamento": {
+      "detalle": {
         "nombre":"Moscopán", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopan.jpg'/>", 
+        "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -153,9 +163,10 @@
   ],
   "casas": [
     {
-      "casa": {
+      "detalle": {
         "nombre":"Ciudad Verde", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/1-casa-ciudad-verde.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -168,9 +179,10 @@
       "id": 1
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"La Playa", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/2-casa-la-playa.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"2",
         "baños":"2",
@@ -183,9 +195,10 @@
       "id": 2
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Antonio Nariño", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/3-casa-antonio-nariño.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -198,9 +211,10 @@
       "id": 3
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Santa Inés", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/4-casa-santa-ines.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Arriendo",
         "habitaciones":"4",
         "baños":"3",
@@ -213,9 +227,10 @@
       "id": 4
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Condominio Habitanya", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/5-casa-condominio-habitanya.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Arriendo",
         "habitaciones":"5",
         "baños":"3",
@@ -228,9 +243,10 @@
       "id": 5
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Conjunto Alcalá", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/6-casa-conjunto-alcala.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"3",
         "baños":"2",
@@ -243,9 +259,10 @@
       "id": 6
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Lomalinda", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/7-casa-lomalinda.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -258,9 +275,10 @@
       "id": 7
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Campamento", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/8-casa-campamento.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Arriendo",
         "habitaciones":"4",
         "baños":"2",
@@ -273,9 +291,10 @@
       "id": 8
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Villa Mercedes", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/9-casa-villa-mercedes.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Arriendo",
         "habitaciones":"3",
         "baños":"2",
@@ -288,9 +307,10 @@
       "id": 9
     },
     {
-      "casa": {
+      "detalle": {
         "nombre":"Conjunto Portachuelo", 
         "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/10-casa-portachuelo.jpg'/>", 
+        "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"4",
         "baños":"3",

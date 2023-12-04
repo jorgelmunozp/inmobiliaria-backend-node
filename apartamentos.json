@@ -2,7 +2,7 @@
   {
     "detalle": {
       "nombre":"Condominio Versalles", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/1-apartamento-condominio-versalles.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/1-apartamento-condominio-versalles.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -18,7 +18,7 @@
   {
     "detalle": {
       "nombre":"Torres del Rio", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/2-apartamento-torres-del-rio.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/2-apartamento-torres-del-rio.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -34,7 +34,7 @@
   {
     "detalle": {
       "nombre":"Terrazas del Campestre", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/3-apartamento-terrazas-del-campestre.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/3-apartamento-terrazas-del-campestre.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -50,7 +50,7 @@
   {
     "detalle": {
       "nombre":"La Estación", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estación.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/4-apartamento-la-estación.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -66,7 +66,7 @@
   {
     "detalle": {
       "nombre":"Condominio La Rivera", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/5-apartamento-condominio-la-rivera.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/5-apartamento-condominio-la-rivera.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -82,7 +82,7 @@
   {
     "detalle": {
       "nombre":"Morinda Vittal", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/6-apartamento-morinda-vittal.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/6-apartamento-morinda-vittal.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -98,7 +98,7 @@
   {
     "detalle": {
       "nombre":"Torres del Parque", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/7-apartamento-torres-del-parque.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/7-apartamento-torres-del-parque.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -114,7 +114,7 @@
   {
     "detalle": {
       "nombre":"Condominio La Floresta", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/8-apartamento-condominio-la-floresta.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/8-apartamento-condominio-la-floresta.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -130,7 +130,7 @@
   {
     "detalle": {
       "nombre":"Llanos de Calibio", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/9-apartamento-llanos-de-calibio.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/9-apartamento-llanos-de-calibio.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -146,7 +146,7 @@
   {
     "detalle": {
       "nombre":"Moscopán", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopán.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='assets/inmuebles/apartamentos/10-apartamento-moscopán.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",

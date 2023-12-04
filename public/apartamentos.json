@@ -50,7 +50,7 @@
   {
     "detalle": {
       "nombre":"La Estación", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estacion.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estación.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -146,7 +146,7 @@
   {
     "detalle": {
       "nombre":"Moscopán", 
-      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopan.jpg'/>", 
+      "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopán.jpg'/>", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",

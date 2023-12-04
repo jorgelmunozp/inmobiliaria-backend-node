@@ -51,7 +51,7 @@
     {
       "detalle": {
         "nombre":"La Estación", 
-        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estacion.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estación.jpg'/>", 
         "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"3",
@@ -147,7 +147,7 @@
     {
       "detalle": {
         "nombre":"Moscopán", 
-        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopan.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopán.jpg'/>", 
         "categoria":"Apartamento",
         "tipo":"Venta",
         "habitaciones":"3",
@@ -213,7 +213,7 @@
     {
       "detalle": {
         "nombre":"Santa Inés", 
-        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/4-casa-santa-ines.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/4-casa-santa-inés.jpg'/>", 
         "categoria":"Casa",
         "tipo":"Arriendo",
         "habitaciones":"4",
@@ -245,7 +245,7 @@
     {
       "detalle": {
         "nombre":"Conjunto Alcalá", 
-        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/6-casa-conjunto-alcala.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/6-casa-conjunto-alcalá.jpg'/>", 
         "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"3",
@@ -309,7 +309,7 @@
     {
       "detalle": {
         "nombre":"Conjunto Portachuelo", 
-        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/10-casa-portachuelo.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='../assets/inmuebles/casas/10-casa-conjunto-portachuelo.jpg'/>", 
         "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"4",

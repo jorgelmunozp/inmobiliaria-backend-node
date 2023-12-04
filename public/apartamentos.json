@@ -1,6 +1,6 @@
 [
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Condominio Versalles", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/1-apartamento-condominio-versalles.jpg'/>", 
       "categoria":"Apartamento",
@@ -16,7 +16,7 @@
     "id": 1
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Torres del Rio", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/2-apartamento-torres-del-rio.jpg'/>", 
       "categoria":"Apartamento",
@@ -32,7 +32,7 @@
     "id": 2
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Terrazas del Campestre", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/3-apartamento-terrazas-del-campestre.jpg'/>", 
       "categoria":"Apartamento",
@@ -48,7 +48,7 @@
     "id": 3
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"La Estación", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/4-apartamento-la-estacion.jpg'/>", 
       "categoria":"Apartamento",
@@ -64,7 +64,7 @@
     "id": 4
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Condominio La Rivera", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/5-apartamento-condominio-la-rivera.jpg'/>", 
       "categoria":"Apartamento",
@@ -80,7 +80,7 @@
     "id": 5
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Morinda Vittal", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/6-apartamento-morinda-vittal.jpg'/>", 
       "categoria":"Apartamento",
@@ -96,7 +96,7 @@
     "id": 6
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Torres del Parque", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/7-apartamento-torres-del-parque.jpg'/>", 
       "categoria":"Apartamento",
@@ -112,7 +112,7 @@
     "id": 7
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Condominio La Floresta", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/8-apartamento-condominio-la-floresta.jpg'/>", 
       "categoria":"Apartamento",
@@ -128,7 +128,7 @@
     "id": 8
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Llanos de Calibio", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/9-apartamento-llanos-de-calibio.jpg'/>", 
       "categoria":"Apartamento",
@@ -144,7 +144,7 @@
     "id": 9
   },
   {
-    "apartamento": {
+    "detalle": {
       "nombre":"Moscopán", 
       "imagen":"<img class='imageInmueble' src='../assets/inmuebles/apartamentos/10-apartamento-moscopan.jpg'/>", 
       "categoria":"Apartamento",

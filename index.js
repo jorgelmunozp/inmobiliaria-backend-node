@@ -74,7 +74,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
       contenidoApartamentos.innerHTML = headerApartamentos + bodyApartamentos.join('') + footerApartamentos;
 });
 
-fetch(urlApiInmuebles)                 //API REST para la simulación de la tabla Casas de la base de datos
+fetch(urlApiInmuebles)                 //API REST para la simulación de la tabla Inmuebles de la base de datos
   .then(response => response.json())
   .then(inmuebles => {
       let contenidoCasas = document.getElementById('contenidoCasas');

@@ -42,6 +42,8 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> valor </th>
               <th> descripción </th>
               <th> ciudad </th>
+              <th> Zona/Barrio </th>
+              <th> Estrato </th>
             </tr>
       `;
 
@@ -57,10 +59,12 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.habitaciones} </td>
               <td> ${inmuebles[i].detalle.baños} </td>
               <td> ${inmuebles[i].detalle.parqueaderos} </td>
-              <td> ${inmuebles[i].detalle.area} </td>
+              <td> ${inmuebles[i].detalle.area}&nbsp;m<sup>2</sup></td>
               <td class='precio'> ${inmuebles[i].detalle.valor} </td>
               <td> ${inmuebles[i].detalle.descripcion} </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
+              <td> ${inmuebles[i].detalle.sector} </td>
+              <td> ${inmuebles[i].detalle.estrato} </td>
             </tr>  
         `};
       }
@@ -97,6 +101,8 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> valor </th>
               <th> descripción </th>
               <th> ciudad </th>
+              <th> Zona/Barrio </th>
+              <th> Estrato </th>
             </tr>  
         `;
 
@@ -112,10 +118,12 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.habitaciones} </td>
               <td> ${inmuebles[i].detalle.baños} </td>
               <td> ${inmuebles[i].detalle.parqueaderos} </td>
-              <td> ${inmuebles[i].detalle.area} </td>
+              <td> ${inmuebles[i].detalle.area}&nbsp;m<sup>2</sup></td>
               <td class='precio'> ${inmuebles[i].detalle.valor} </td>
               <td> ${inmuebles[i].detalle.descripcion} </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
+              <td> ${inmuebles[i].detalle.sector} </td>
+              <td> ${inmuebles[i].detalle.estrato} </td>
               </tr>
          `};
         }

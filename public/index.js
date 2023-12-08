@@ -53,7 +53,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
           bodyApartamentos[i] = `
             <tr>
               <td> ${inmuebles[i].id} </td>
-              <td> ${inmuebles[i].detalle.imagen} </td>
+              <td> <input type="image" src="/assets/inmuebles/${inmuebles[i].detalle.imagen}" class="imageInmueble" /> </td>
               <td> ${inmuebles[i].detalle.nombre} </td>
               <td> ${inmuebles[i].detalle.tipo} </td>
               <td> ${inmuebles[i].detalle.habitaciones} </td>
@@ -112,7 +112,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
             bodyCasas[i] = `
               <tr>
               <td> ${inmuebles[i].id} </td>
-              <td> ${inmuebles[i].detalle.imagen} </td>
+              <td> <input type="image" src="/assets/inmuebles/${inmuebles[i].detalle.imagen}" class="imageInmueble" /> </td>
               <td> ${inmuebles[i].detalle.nombre} </td>
               <td> ${inmuebles[i].detalle.tipo} </td>
               <td> ${inmuebles[i].detalle.habitaciones} </td>

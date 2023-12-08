@@ -11,7 +11,9 @@
       "area":"95",
       "valor":"$ 120.000.000",
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Variante norte",
+      "estrato": "4"
     },
     "id": 1
   },
@@ -27,7 +29,9 @@
       "area":"75",
       "valor":"$ 950.000",
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Ciudad Jardín",
+      "estrato": "3"
     },
     "id": 2
   },
@@ -43,7 +47,9 @@
       "area":"102",
       "valor":"$ 145.000.000",
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "La Ximena",
+      "estrato": "5"
     },
     "id": 3
   },
@@ -59,7 +65,9 @@
       "area":"78",
       "valor":"$ 125.000.000",
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "El Modelo",
+      "estrato": "3"
     },
     "id": 4
   },
@@ -75,7 +83,9 @@
       "area":"75",
       "valor":"$ 105.000.000",
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "La Ximena",
+      "estrato": "4"
     },
     "id": 5
   },
@@ -91,7 +101,9 @@
       "area":"85",
       "valor":"$ 850.000",
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "El Bosque",
+      "estrato": "4"
     },
     "id": 6
   },
@@ -107,7 +119,9 @@
       "area":"70",
       "valor":"$ 1.200.000",
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "El Recuerdo",
+      "estrato": "4"
     },
     "id": 7
   },
@@ -123,7 +137,9 @@
       "area":"95",
       "valor":"$ 1.000.000",
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Palacé",
+      "estrato": "3"
     },
     "id": 8
   },
@@ -139,7 +155,9 @@
       "area":"82",
       "valor":"$ 160.000.000",
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Variante norte",
+      "estrato": "4"
     },
     "id": 9
   },
@@ -155,13 +173,15 @@
       "area":"75",
       "valor":"$ 90.000.000",
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Santa Inés",
+      "estrato": "3"
     },
     "id": 10
   },
   {
     "detalle": {
-      "nombre":"Ciudad Verde", 
+      "nombre":"Parcelación Ciudad Verde", 
       "imagen":"<img class='imageInmueble' src='assets/inmuebles/11-casa-ciudad-verde.jpg'/>", 
       "categoria":"Casa",
       "tipo":"Venta",
@@ -171,7 +191,9 @@
       "area":"130",
       "valor":"$ 240.000.000",
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "San Bernardino",
+      "estrato": "4"
     },
     "id": 11
   },
@@ -187,7 +209,9 @@
       "area":"145",
       "valor":"$ 380.000.000",
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "La Playa",
+      "estrato": "5"
     },
     "id": 12
   },
@@ -203,7 +227,9 @@
       "area":"128",
       "valor":"$ 220.000.000",
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Antonio Nariño",
+      "estrato": "5"
     },
     "id": 13
   },
@@ -219,7 +245,9 @@
       "area":"110",
       "valor":"$ 1.200.000",
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Santa Inés",
+      "estrato": "3"
     },
     "id": 14
   },
@@ -235,7 +263,9 @@
       "area":"135",
       "valor":"$ 1.500.000",
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Variante norte",
+      "estrato": "4"
     },
     "id": 15
   },
@@ -251,7 +281,9 @@
       "area":"125",
       "valor":"$ 175.000.000",
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Santa Clara",
+      "estrato": "4"
     },
     "id": 16
   },
@@ -267,7 +299,9 @@
       "area":"150",
       "valor":"$ 1.100.000",
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "El Modelo",
+      "estrato": "4"
     },
     "id": 17
   },
@@ -283,7 +317,9 @@
       "area":"160",
       "valor":"$ 1.400.000",
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Campamento",
+      "estrato": "5"
     },
     "id": 18
   },
@@ -299,7 +335,9 @@
       "area":"140",
       "valor":"$ 1.100.000",
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "La Ximena",
+      "estrato": "4"
     },
     "id": 19
   },
@@ -315,7 +353,9 @@
       "area":"130",
       "valor":"$ 320.000.000",
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
-      "ciudad":"Popayán"
+      "ciudad":"Popayán",
+      "sector": "Variante norte",
+      "estrato": "5"
     },
     "id": 20
   }

@@ -60,7 +60,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.baños} </td>
               <td> ${inmuebles[i].detalle.parqueaderos} </td>
               <td> ${inmuebles[i].detalle.area}&nbsp;m<sup>2</sup></td>
-              <td class='precio'> ${inmuebles[i].detalle.valor} </td>
+              <td class='precio'> ${formatterPeso.format(inmuebles[i].detalle.valor)} </td>
               <td> ${inmuebles[i].detalle.descripcion} </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
               <td> ${inmuebles[i].detalle.sector} </td>
@@ -119,7 +119,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.baños} </td>
               <td> ${inmuebles[i].detalle.parqueaderos} </td>
               <td> ${inmuebles[i].detalle.area}&nbsp;m<sup>2</sup></td>
-              <td class='precio'> ${inmuebles[i].detalle.valor} </td>
+              <td class='precio'> ${formatterPeso.format(inmuebles[i].detalle.valor)} </td>
               <td> ${inmuebles[i].detalle.descripcion} </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
               <td> ${inmuebles[i].detalle.sector} </td>

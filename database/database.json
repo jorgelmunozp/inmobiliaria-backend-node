@@ -183,7 +183,7 @@
     {
       "detalle": {
         "nombre":"Parcelación Ciudad Verde", 
-        "imagen":"<img class='imageInmueble' src='assets/inmuebles/11-casa-ciudad-verde.jpg'/>", 
+        "imagen":"<img class='imageInmueble' src='assets/inmuebles/11-casa-parcelación-ciudad-verde.jpg'/>", 
         "categoria":"Casa",
         "tipo":"Venta",
         "habitaciones":"3",

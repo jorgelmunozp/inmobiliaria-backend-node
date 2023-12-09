@@ -1,0 +1,14 @@
+[
+  {
+    "parameter":"Todos",
+    "id": 0
+  },
+  {
+    "parameter":"Arriendo",
+    "id": 1
+  },
+  {
+    "parameter":"Venta",
+    "id": 2
+  }
+]

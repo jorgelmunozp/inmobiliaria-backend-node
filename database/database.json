@@ -360,5 +360,33 @@
       },
       "id": 20
     }
+  ],
+  "categorias": [
+    {
+      "parameter":"Todos",
+      "id": 0
+    },
+    {
+      "parameter":"Apartamento",
+      "id": 1
+    },
+    {
+      "parameter":"Casa",
+      "id": 2
+    }
+  ],
+  "tipos": [
+    {
+      "parameter":"Todos",
+      "id": 0
+    },
+    {
+      "parameter":"Arriendo",
+      "id": 1
+    },
+    {
+      "parameter":"Venta",
+      "id": 2
+    }
   ]
 }

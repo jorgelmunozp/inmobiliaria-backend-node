@@ -1,0 +1,14 @@
+[
+  {
+    "parameter":"Todos",
+    "id": 0
+  },
+  {
+    "parameter":"Apartamento",
+    "id": 1
+  },
+  {
+    "parameter":"Casa",
+    "id": 2
+  }
+]

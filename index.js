@@ -44,6 +44,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> ciudad </th>
               <th> Zona/Barrio </th>
               <th> Estrato </th>
+              <th> Estado </th>
             </tr>
       `;
 
@@ -65,6 +66,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.ciudad} </td>
               <td> ${inmuebles[i].detalle.sector} </td>
               <td> ${inmuebles[i].detalle.estrato} </td>
+              <td> ${inmuebles[i].detalle.estado} </td>
             </tr>  
         `};
       }
@@ -103,6 +105,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> ciudad </th>
               <th> Zona/Barrio </th>
               <th> Estrato </th>
+              <th> Estado </th>
             </tr>  
         `;
 
@@ -124,6 +127,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.ciudad} </td>
               <td> ${inmuebles[i].detalle.sector} </td>
               <td> ${inmuebles[i].detalle.estrato} </td>
+              <td> ${inmuebles[i].detalle.estado} </td>
               </tr>
          `};
         }

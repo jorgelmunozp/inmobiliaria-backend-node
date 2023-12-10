@@ -34,7 +34,7 @@
         "ciudad":"Popayán",
         "sector": "Ciudad Jardín",
         "estrato": "3",
-        "estado": "Disponible"
+        "estado": "Arrendado"
       },
       "id": 2
     },
@@ -53,7 +53,7 @@
         "ciudad":"Popayán",
         "sector": "La Ximena",
         "estrato": "5",
-        "estado": "Disponible"
+        "estado": "Vendido"
       },
       "id": 3
     },
@@ -338,7 +338,7 @@
         "ciudad":"Popayán",
         "sector": "Campamento",
         "estrato": "5",
-        "estado": "Disponible"
+        "estado": "Arrendado"
       },
       "id": 18
     },
@@ -376,7 +376,7 @@
         "ciudad":"Popayán",
         "sector": "Variante norte",
         "estrato": "5",
-        "estado": "Disponible"
+        "estado": "Vendido"
       },
       "id": 20
     }

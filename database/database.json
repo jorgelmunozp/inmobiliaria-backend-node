@@ -388,5 +388,19 @@
       "parameter":"Venta",
       "id": 2
     }
+  ],
+  "estados": [
+    {
+      "parameter":"Disponible",
+      "id": 0
+    },
+    {
+      "parameter":"Vendido",
+      "id": 1
+    },
+    {
+      "parameter":"Arrendado",
+      "id": 2
+    }
   ]
 }

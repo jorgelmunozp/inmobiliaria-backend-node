@@ -2,7 +2,7 @@
   {
     "detalle": {
       "nombre":"Condominio Versalles", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/1-apartamento-condominio-versalles.jpg'/>", 
+      "imagen":"1-apartamento-condominio-versalles.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -13,14 +13,15 @@
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "Variante norte",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 1
   },
   {
     "detalle": {
       "nombre":"Torres del Rio", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/2-apartamento-torres-del-rio.jpg'/>", 
+      "imagen":"2-apartamento-torres-del-rio.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -31,14 +32,15 @@
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "Ciudad Jardín",
-      "estrato": "3"
+      "estrato": "3",
+      "estado": "Disponible"
     },
     "id": 2
   },
   {
     "detalle": {
       "nombre":"Terrazas del Campestre", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/3-apartamento-terrazas-del-campestre.jpg'/>", 
+      "imagen":"3-apartamento-terrazas-del-campestre.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -49,14 +51,15 @@
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "La Ximena",
-      "estrato": "5"
+      "estrato": "5",
+      "estado": "Disponible"
     },
     "id": 3
   },
   {
     "detalle": {
       "nombre":"La Estación", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/4-apartamento-la-estación.jpg'/>", 
+      "imagen":"4-apartamento-la-estación.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -67,14 +70,15 @@
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "El Modelo",
-      "estrato": "3"
+      "estrato": "3",
+      "estado": "Disponible"
     },
     "id": 4
   },
   {
     "detalle": {
       "nombre":"Condominio La Rivera", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/5-apartamento-condominio-la-rivera.jpg'/>", 
+      "imagen":"5-apartamento-condominio-la-rivera.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -85,14 +89,15 @@
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "La Ximena",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 5
   },
   {
     "detalle": {
       "nombre":"Morinda Vittal", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/6-apartamento-morinda-vittal.jpg'/>", 
+      "imagen":"6-apartamento-morinda-vittal.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -103,14 +108,15 @@
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "El Bosque",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 6
   },
   {
     "detalle": {
       "nombre":"Torres del Parque", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/7-apartamento-torres-del-parque.jpg'/>", 
+      "imagen":"7-apartamento-torres-del-parque.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -121,14 +127,15 @@
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "El Recuerdo",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 7
   },
   {
     "detalle": {
       "nombre":"Condominio La Floresta", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/8-apartamento-condominio-la-floresta.jpg'/>", 
+      "imagen":"8-apartamento-condominio-la-floresta.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -139,14 +146,15 @@
       "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "Palacé",
-      "estrato": "3"
+      "estrato": "3",
+      "estado": "Disponible"
     },
     "id": 8
   },
   {
     "detalle": {
       "nombre":"Llanos de Calibio", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/9-apartamento-llanos-de-calibio.jpg'/>", 
+      "imagen":"9-apartamento-llanos-de-calibio.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -157,14 +165,15 @@
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "Variante norte",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 9
   },
   {
     "detalle": {
       "nombre":"Moscopán", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/10-apartamento-moscopán.jpg'/>", 
+      "imagen":"10-apartamento-moscopán.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -175,14 +184,15 @@
       "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "Santa Inés",
-      "estrato": "3"
+      "estrato": "3",
+      "estado": "Disponible"
     },
     "id": 10
   },
   {
     "detalle": {
       "nombre":"Parcelación Ciudad Verde", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/11-casa-parcelación-ciudad-verde.jpg'/>", 
+      "imagen":"11-casa-parcelación-ciudad-verde.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -193,14 +203,15 @@
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "San Bernardino",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 11
   },
   {
     "detalle": {
       "nombre":"La Playa", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/12-casa-la-playa.jpg'/>", 
+      "imagen":"12-casa-la-playa.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -211,14 +222,15 @@
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "La Playa",
-      "estrato": "5"
+      "estrato": "5",
+      "estado": "Disponible"
     },
     "id": 12
   },
   {
     "detalle": {
       "nombre":"Antonio Nariño", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/13-casa-antonio-nariño.jpg'/>", 
+      "imagen":"13-casa-antonio-nariño.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -229,14 +241,15 @@
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "Antonio Nariño",
-      "estrato": "5"
+      "estrato": "5",
+      "estado": "Disponible"
     },
     "id": 13
   },
   {
     "detalle": {
       "nombre":"Santa Inés", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/14-casa-santa-inés.jpg'/>", 
+      "imagen":"14-casa-santa-inés.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"4",
@@ -247,14 +260,15 @@
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "Santa Inés",
-      "estrato": "3"
+      "estrato": "3",
+      "estado": "Disponible"
     },
     "id": 14
   },
   {
     "detalle": {
       "nombre":"Condominio Habitanya", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/15-casa-condominio-habitanya.jpg'/>", 
+      "imagen":"15-casa-condominio-habitanya.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"5",
@@ -265,14 +279,15 @@
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "Variante norte",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 15
   },
   {
     "detalle": {
       "nombre":"Conjunto Alcalá", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/16-casa-conjunto-alcalá.jpg'/>", 
+      "imagen":"16-casa-conjunto-alcalá.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -283,14 +298,15 @@
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "Santa Clara",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 16
   },
   {
     "detalle": {
       "nombre":"Lomalinda", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/17-casa-lomalinda.jpg'/>", 
+      "imagen":"17-casa-lomalinda.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -301,14 +317,15 @@
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "El Modelo",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 17
   },
   {
     "detalle": {
       "nombre":"Campamento", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/18-casa-campamento.jpg'/>", 
+      "imagen":"18-casa-campamento.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"4",
@@ -319,14 +336,15 @@
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "Campamento",
-      "estrato": "5"
+      "estrato": "5",
+      "estado": "Disponible"
     },
     "id": 18
   },
   {
     "detalle": {
       "nombre":"Villa Mercedes", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/19-casa-villa-mercedes.jpg'/>", 
+      "imagen":"19-casa-villa-mercedes.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -337,14 +355,15 @@
       "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "La Ximena",
-      "estrato": "4"
+      "estrato": "4",
+      "estado": "Disponible"
     },
     "id": 19
   },
   {
     "detalle": {
       "nombre":"Conjunto Portachuelo", 
-      "imagen":"<img class='imageInmueble' src='assets/inmuebles/20-casa-conjunto-portachuelo.jpg'/>", 
+      "imagen":"20-casa-conjunto-portachuelo.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"4",
@@ -355,7 +374,8 @@
       "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
       "ciudad":"Popayán",
       "sector": "Variante norte",
-      "estrato": "5"
+      "estrato": "5",
+      "estado": "Disponible"
     },
     "id": 20
   }

@@ -14,7 +14,8 @@
         "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "Variante norte",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 1
     },
@@ -32,7 +33,8 @@
         "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "Ciudad Jardín",
-        "estrato": "3"
+        "estrato": "3",
+        "estado": "Disponible"
       },
       "id": 2
     },
@@ -50,7 +52,8 @@
         "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "La Ximena",
-        "estrato": "5"
+        "estrato": "5",
+        "estado": "Disponible"
       },
       "id": 3
     },
@@ -68,7 +71,8 @@
         "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "El Modelo",
-        "estrato": "3"
+        "estrato": "3",
+        "estado": "Disponible"
       },
       "id": 4
     },
@@ -86,7 +90,8 @@
         "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "La Ximena",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 5
     },
@@ -104,7 +109,8 @@
         "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "El Bosque",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 6
     },
@@ -122,7 +128,8 @@
         "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "El Recuerdo",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 7
     },
@@ -140,7 +147,8 @@
         "descripcion":"Se arrienda hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "Palacé",
-        "estrato": "3"
+        "estrato": "3",
+        "estado": "Disponible"
       },
       "id": 8
     },
@@ -158,7 +166,8 @@
         "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "Variante norte",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 9
     },
@@ -176,7 +185,8 @@
         "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
         "ciudad":"Popayán",
         "sector": "Santa Inés",
-        "estrato": "3"
+        "estrato": "3",
+        "estado": "Disponible"
       },
       "id": 10
     },
@@ -194,7 +204,8 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "San Bernardino",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 11
     },
@@ -212,7 +223,8 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "La Playa",
-        "estrato": "5"
+        "estrato": "5",
+        "estado": "Disponible"
       },
       "id": 12
     },
@@ -230,7 +242,8 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "Antonio Nariño",
-        "estrato": "5"
+        "estrato": "5",
+        "estado": "Disponible"
       },
       "id": 13
     },
@@ -248,7 +261,8 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "Santa Inés",
-        "estrato": "3"
+        "estrato": "3",
+        "estado": "Disponible"
       },
       "id": 14
     },
@@ -266,7 +280,8 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "Variante norte",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 15
     },
@@ -284,7 +299,8 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "Santa Clara",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 16
     },
@@ -302,7 +318,8 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "El Modelo",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 17
     },
@@ -320,7 +337,8 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "Campamento",
-        "estrato": "5"
+        "estrato": "5",
+        "estado": "Disponible"
       },
       "id": 18
     },
@@ -338,7 +356,8 @@
         "descripcion":"Se arrienda hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "La Ximena",
-        "estrato": "4"
+        "estrato": "4",
+        "estado": "Disponible"
       },
       "id": 19
     },
@@ -356,7 +375,8 @@
         "descripcion":"Se vende hermosa casa para estrenar en exclusivo sector campestre",
         "ciudad":"Popayán",
         "sector": "Variante norte",
-        "estrato": "5"
+        "estrato": "5",
+        "estado": "Disponible"
       },
       "id": 20
     }

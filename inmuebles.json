@@ -2,26 +2,27 @@
   {
     "detalle": {
       "nombre":"Condominio Versalles", 
-      "imagen":"1-apartamento-condominio-versalles.jpg", 
-      "categoria":"Apartamento",
+      "imagen":"1-casa-condominio-versalles-0.jpg", 
+      "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
       "baños":"2",
       "parqueaderos":"2",
       "area":"95",
       "valor":"120000000",
-      "descripcion":"Se vende hermoso apartamento en un sector exclusivo de la ciudad",
+      "descripcion":"Se vende hermosa casa en un sector exclusivo de la ciudad",
       "ciudad":"Popayán",
       "sector": "Variante norte",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 1
   },
   {
     "detalle": {
       "nombre":"Torres del Rio", 
-      "imagen":"2-apartamento-torres-del-rio.jpg", 
+      "imagen":"2-apartamento-torres-del-rio-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -33,14 +34,15 @@
       "ciudad":"Popayán",
       "sector": "Ciudad Jardín",
       "estrato": "3",
-      "estado": "Arrendado"
+      "estado": "Arrendado",
+      "images": []
     },
     "id": 2
   },
   {
     "detalle": {
       "nombre":"Terrazas del Campestre", 
-      "imagen":"3-apartamento-terrazas-del-campestre.jpg", 
+      "imagen":"3-apartamento-terrazas-del-campestre-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -52,14 +54,15 @@
       "ciudad":"Popayán",
       "sector": "La Ximena",
       "estrato": "5",
-      "estado": "Vendido"
+      "estado": "Vendido",
+      "images": []
     },
     "id": 3
   },
   {
     "detalle": {
       "nombre":"La Estación", 
-      "imagen":"4-apartamento-la-estación.jpg", 
+      "imagen":"4-apartamento-la-estación-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -71,14 +74,15 @@
       "ciudad":"Popayán",
       "sector": "El Modelo",
       "estrato": "3",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 4
   },
   {
     "detalle": {
       "nombre":"Condominio La Rivera", 
-      "imagen":"5-apartamento-condominio-la-rivera.jpg", 
+      "imagen":"5-apartamento-condominio-la-rivera-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -90,14 +94,15 @@
       "ciudad":"Popayán",
       "sector": "La Ximena",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 5
   },
   {
     "detalle": {
       "nombre":"Morinda Vittal", 
-      "imagen":"6-apartamento-morinda-vittal.jpg", 
+      "imagen":"6-apartamento-morinda-vittal-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -109,14 +114,15 @@
       "ciudad":"Popayán",
       "sector": "El Bosque",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 6
   },
   {
     "detalle": {
       "nombre":"Torres del Parque", 
-      "imagen":"7-apartamento-torres-del-parque.jpg", 
+      "imagen":"7-apartamento-torres-del-parque-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"2",
@@ -128,14 +134,15 @@
       "ciudad":"Popayán",
       "sector": "El Recuerdo",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 7
   },
   {
     "detalle": {
       "nombre":"Condominio La Floresta", 
-      "imagen":"8-apartamento-condominio-la-floresta.jpg", 
+      "imagen":"8-apartamento-condominio-la-floresta-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -147,14 +154,15 @@
       "ciudad":"Popayán",
       "sector": "Palacé",
       "estrato": "3",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 8
   },
   {
     "detalle": {
       "nombre":"Llanos de Calibio", 
-      "imagen":"9-apartamento-llanos-de-calibio.jpg", 
+      "imagen":"9-apartamento-llanos-de-calibio-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -166,14 +174,15 @@
       "ciudad":"Popayán",
       "sector": "Variante norte",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 9
   },
   {
     "detalle": {
       "nombre":"Moscopán", 
-      "imagen":"10-apartamento-moscopán.jpg", 
+      "imagen":"10-apartamento-moscopán-0.jpg", 
       "categoria":"Apartamento",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -185,14 +194,15 @@
       "ciudad":"Popayán",
       "sector": "Santa Inés",
       "estrato": "3",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 10
   },
   {
     "detalle": {
       "nombre":"Parcelación Ciudad Verde", 
-      "imagen":"11-casa-parcelación-ciudad-verde.jpg", 
+      "imagen":"11-casa-parcelación-ciudad-verde-0.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -204,14 +214,15 @@
       "ciudad":"Popayán",
       "sector": "San Bernardino",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 11
   },
   {
     "detalle": {
       "nombre":"La Playa", 
-      "imagen":"12-casa-la-playa.jpg", 
+      "imagen":"12-casa-la-playa-0.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"2",
@@ -223,14 +234,15 @@
       "ciudad":"Popayán",
       "sector": "La Playa",
       "estrato": "5",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 12
   },
   {
     "detalle": {
       "nombre":"Antonio Nariño", 
-      "imagen":"13-casa-antonio-nariño.jpg", 
+      "imagen":"13-casa-antonio-nariño-0.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -242,14 +254,15 @@
       "ciudad":"Popayán",
       "sector": "Antonio Nariño",
       "estrato": "5",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 13
   },
   {
     "detalle": {
       "nombre":"Santa Inés", 
-      "imagen":"14-casa-santa-inés.jpg", 
+      "imagen":"14-casa-santa-inés-0.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"4",
@@ -261,14 +274,15 @@
       "ciudad":"Popayán",
       "sector": "Santa Inés",
       "estrato": "3",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 14
   },
   {
     "detalle": {
       "nombre":"Condominio Habitanya", 
-      "imagen":"15-casa-condominio-habitanya.jpg", 
+      "imagen":"15-casa-condominio-habitanya-0.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"5",
@@ -280,14 +294,15 @@
       "ciudad":"Popayán",
       "sector": "Variante norte",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 15
   },
   {
     "detalle": {
       "nombre":"Conjunto Alcalá", 
-      "imagen":"16-casa-conjunto-alcalá.jpg", 
+      "imagen":"16-casa-conjunto-alcalá-0.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"3",
@@ -299,14 +314,15 @@
       "ciudad":"Popayán",
       "sector": "Santa Clara",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 16
   },
   {
     "detalle": {
       "nombre":"Lomalinda", 
-      "imagen":"17-casa-lomalinda.jpg", 
+      "imagen":"17-casa-lomalinda-0.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -318,14 +334,15 @@
       "ciudad":"Popayán",
       "sector": "El Modelo",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 17
   },
   {
     "detalle": {
       "nombre":"Campamento", 
-      "imagen":"18-casa-campamento.jpg", 
+      "imagen":"18-casa-campamento-0.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"4",
@@ -337,14 +354,15 @@
       "ciudad":"Popayán",
       "sector": "Campamento",
       "estrato": "5",
-      "estado": "Arrendado"
+      "estado": "Arrendado",
+      "images": []
     },
     "id": 18
   },
   {
     "detalle": {
       "nombre":"Villa Mercedes", 
-      "imagen":"19-casa-villa-mercedes.jpg", 
+      "imagen":"19-casa-villa-mercedes-0.jpg", 
       "categoria":"Casa",
       "tipo":"Arriendo",
       "habitaciones":"3",
@@ -356,14 +374,15 @@
       "ciudad":"Popayán",
       "sector": "La Ximena",
       "estrato": "4",
-      "estado": "Disponible"
+      "estado": "Disponible",
+      "images": []
     },
     "id": 19
   },
   {
     "detalle": {
       "nombre":"Conjunto Portachuelo", 
-      "imagen":"20-casa-conjunto-portachuelo.jpg", 
+      "imagen":"20-casa-conjunto-portachuelo-0.jpg", 
       "categoria":"Casa",
       "tipo":"Venta",
       "habitaciones":"4",
@@ -375,7 +394,8 @@
       "ciudad":"Popayán",
       "sector": "Variante norte",
       "estrato": "5",
-      "estado": "Vendido"
+      "estado": "Vendido",
+      "images": []
     },
     "id": 20
   }

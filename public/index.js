@@ -34,6 +34,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> n° </th>
               <th> <i class="fa fa-camera"></i> </th>
               <th> nombre </th>
+              <th> categoría </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
@@ -56,6 +57,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].id} </td>
               <td> <input type="image" src="/assets/inmuebles/${inmuebles[i].detalle.imagen}" class="imageInmueble" /> </td>
               <td> ${inmuebles[i].detalle.nombre} </td>
+              <td> ${inmuebles[i].detalle.categoria} </td>
               <td> ${inmuebles[i].detalle.tipo} </td>
               <td> ${inmuebles[i].detalle.habitaciones} </td>
               <td> ${inmuebles[i].detalle.baños} </td>
@@ -95,6 +97,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> n° </th>
               <th> <i class="fa fa-camera"></i> </th>
               <th> nombre </th>
+              <th> categoría </th>
               <th> tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
@@ -117,6 +120,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].id} </td>
               <td> <input type="image" src="/assets/inmuebles/${inmuebles[i].detalle.imagen}" class="imageInmueble" /> </td>
               <td> ${inmuebles[i].detalle.nombre} </td>
+              <td> ${inmuebles[i].detalle.categoria} </td>
               <td> ${inmuebles[i].detalle.tipo} </td>
               <td> ${inmuebles[i].detalle.habitaciones} </td>
               <td> ${inmuebles[i].detalle.baños} </td>

@@ -1,10 +1,10 @@
 // DEV
-// const ip = 'localhost';
-// const puerto = '3000';
-// const urlApiInmuebles = 'http://' + ip + ':' + puerto + '/inmuebles';
+const ip = 'localhost';
+const puerto = '3000';
+const urlApiInmuebles = 'http://' + ip + ':' + puerto + '/inmuebles';
 
 // NON-PROD
-const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles.json';
+// const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles.json';
 
 // PROD
 // const urlApiInmuebles = 'https://jorgelmunozp.github.io/inmobiliaria-backend-node/inmuebles';
@@ -43,6 +43,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> valor </th>
               <th> descripción </th>
               <th> ciudad </th>
+              <th> Departamento </th>
               <th> Zona/Barrio </th>
               <th> Estrato </th>
               <th> Estado </th>
@@ -55,7 +56,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
           bodyApartamentos[i] = `
             <tr>
               <td> ${inmuebles[i].id} </td>
-              <td> <input type="image" src="/assets/inmuebles/${inmuebles[i].detalle.imagen}" class="imageInmueble" /> </td>
+              <td> <input type="image" src="${inmuebles[i].detalle.imagen.data}" class="imageInmueble" alt ="Foto" title ="Foto" /> </td>
               <td> ${inmuebles[i].detalle.nombre} </td>
               <td> ${inmuebles[i].detalle.categoria} </td>
               <td> ${inmuebles[i].detalle.tipo} </td>
@@ -64,8 +65,9 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> ${inmuebles[i].detalle.parqueaderos} </td>
               <td> ${inmuebles[i].detalle.area}&nbsp;m<sup>2</sup></td>
               <td class='precio'> ${formatterPeso.format(inmuebles[i].detalle.valor)} </td>
-              <td> ${inmuebles[i].detalle.descripcion} </td>
+              <td> <small>${inmuebles[i].detalle.descripcion}</small> </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
+              <td> ${inmuebles[i].detalle.departamento} </td>
               <td> ${inmuebles[i].detalle.sector} </td>
               <td> ${inmuebles[i].detalle.estrato} </td>
               <td> ${inmuebles[i].detalle.estado} </td>
@@ -94,18 +96,18 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
           <hr/>
           <table border='1'>
             <tr>
-              <th> n° </th>
+              <th> N° </th>
               <th> <i class="fa fa-camera"></i> </th>
-              <th> nombre </th>
-              <th> categoría </th>
-              <th> tipo </th>
+              <th> Nombre </th>
+              <th> Categoría </th>
+              <th> Tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
               <th> <i class="fa fa-car"></i> </th>
-              <th> área </th>
-              <th> valor </th>
-              <th> descripción </th>
-              <th> ciudad </th>
+              <th> Área </th>
+              <th> Valor </th>
+              <th> Descripción </th>
+              <th> Ciudad </th>
               <th> Zona/Barrio </th>
               <th> Estrato </th>
               <th> Estado </th>
@@ -118,7 +120,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
             bodyCasas[i] = `
               <tr>
               <td> ${inmuebles[i].id} </td>
-              <td> <input type="image" src="/assets/inmuebles/${inmuebles[i].detalle.imagen}" class="imageInmueble" /> </td>
+              <td> <input type="image" src="${inmuebles[i].detalle.imagen.data}" class="imageInmueble" alt ="Foto" title ="Foto" /> </td>
               <td> ${inmuebles[i].detalle.nombre} </td>
               <td> ${inmuebles[i].detalle.categoria} </td>
               <td> ${inmuebles[i].detalle.tipo} </td>

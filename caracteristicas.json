@@ -1,0 +1,42 @@
+[
+  {
+    "parameter":"hermos@",
+    "id": 1
+  },
+  {
+    "parameter":"ampli@",
+    "id": 2
+  },
+  {
+    "parameter":"espectacular",
+    "id": 3
+  },
+  {
+    "parameter":"modern@",
+    "id": 4
+  },
+  {
+    "parameter":"lind@",
+    "id": 5
+  },
+  {
+    "parameter":"comod@",
+    "id": 6
+  },
+  {
+    "parameter":"nuev@",
+    "id": 7
+  },
+  {
+    "parameter":"bien ubicad@",
+    "id": 8
+  },
+  {
+    "parameter":"central",
+    "id": 9
+  },
+  {
+    "parameter":"acogedor@",
+    "id": 10
+  }
+]

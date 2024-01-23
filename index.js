@@ -31,19 +31,20 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
           <hr/>
           <table border='1'>
             <tr>
-              <th> n° </th>
+              <th> N° </th>
               <th> <i class="fa fa-camera"></i> </th>
-              <th> nombre </th>
-              <th> categoría </th>
-              <th> tipo </th>
+              <th> Nombre </th>
+              <th> Categoría </th>
+              <th> Tipo </th>
               <th> <i class="fa fa-bed"></i> </th>
               <th> <i class="fa fa-bath"></i> </th>
               <th> <i class="fa fa-car"></i> </th>
-              <th> área </th>
-              <th> valor </th>
-              <th> descripción </th>
-              <th> ciudad </th>
+              <th> Área </th>
+              <th> Valor </th>
+              <th> Descripción </th>
+              <th> Ciudad </th>
               <th> Departamento </th>
+              <th> País </th>
               <th> Zona/Barrio </th>
               <th> Estrato </th>
               <th> Estado </th>
@@ -68,6 +69,7 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td> <small>${inmuebles[i].detalle.descripcion}</small> </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
               <td> ${inmuebles[i].detalle.departamento} </td>
+              <td> ${inmuebles[i].detalle.pais} </td>
               <td> ${inmuebles[i].detalle.sector} </td>
               <td> ${inmuebles[i].detalle.estrato} </td>
               <td> ${inmuebles[i].detalle.estado} </td>
@@ -107,7 +109,9 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <th> Área </th>
               <th> Valor </th>
               <th> Descripción </th>
-              <th> Ciudad </th>
+              <th> Ciudad </th>              
+              <th> Departamento </th>
+              <th> País </th>
               <th> Zona/Barrio </th>
               <th> Estrato </th>
               <th> Estado </th>
@@ -131,6 +135,8 @@ fetch(urlApiInmuebles)                 //API REST para la simulación de la tabl
               <td class='precio'> ${formatterPeso.format(inmuebles[i].detalle.valor)} </td>
               <td> ${inmuebles[i].detalle.descripcion} </td>
               <td> ${inmuebles[i].detalle.ciudad} </td>
+              <td> ${inmuebles[i].detalle.departamento} </td>
+              <td> ${inmuebles[i].detalle.pais} </td>
               <td> ${inmuebles[i].detalle.sector} </td>
               <td> ${inmuebles[i].detalle.estrato} </td>
               <td> ${inmuebles[i].detalle.estado} </td>

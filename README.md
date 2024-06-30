@@ -15,7 +15,10 @@
 ***
 
 ### Preview
-![Preview](/docs/preview.png)
+![Preview](/docs/preview.webp)
+
+### Api
+![Api](/docs/api.webp)
 
 ***
 
